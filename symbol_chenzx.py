@@ -2,6 +2,7 @@ import os, sys
 import argparse
 import find_mxnet
 import mxnet as mx
+import mixup
 
 
 def ConvFactory(name, data, num_filter, kernel, stride=1, pad=0, use_act=True):
@@ -20,6 +21,7 @@ def ConvFactory(name, data, num_filter, kernel, stride=1, pad=0, use_act=True):
 
 
 def get_symbol(is_train=True, lmk_count=21, pose_count=3):
+    batch_size = 64
     data = mx.sym.Variable("data")
     label = mx.sym.Variable("softmax_label")
     conv1 = ConvFactory('conv1', data, 16, 3, 2, 0)
@@ -28,20 +30,25 @@ def get_symbol(is_train=True, lmk_count=21, pose_count=3):
     conv3 = ConvFactory('conv3', conv2, 48, 3, 2, 1)
     conv4 = ConvFactory('conv4', conv3, 48, 3, 1, 0)
     conv5 = ConvFactory('conv5', conv4, 64, 3, 1, 1)
-    conv6_1 = ConvFactory('conv6_1', conv5, 64, 3, 1, 1)
-    
+    if is_train:
+        mix_re,label = mx.sym.Custom(data = conv5,label=label,alpha =0.2,num_classes = lmk_count*2, batch_size = 64, mix_rate = 0.7 ,op_type = 'MixUp')
+        conv6_1 = ConvFactory('conv6_1', mix_re, 64, 3, 1, 1)
+    else:
+        conv6_1 = ConvFactory('conv6_1', conv5, 64, 3, 1, 1)
     conv6_2 = ConvFactory('conv6_2', conv6_1, lmk_count*2, 3, 1, 0,False)
-    #conv7 = ConvFactory('conv7', conv6_2, 16, 3, 1, 1)
-    #conv8 = ConvFactory('conv8', conv7, 8, 3, 1, 1)
-    #conv9 = ConvFactory('conv9', conv8, 3, 3, 1, 0)
-    #con10 = ConvFactory('con10', conv9, 3, 1, 1, 0)
+    
     conv10 = mx.symbol.Pooling(data=conv6_2, global_pool=True,pool_type='avg',kernel=(1,1))
     conv10_2 = mx.symbol.Flatten(data=conv10)
 
 
     if is_train:
         offset = 0
+        #mix_data, label = mx.sym.Custom(data=conv10_2,label=label,alpha = 0.1, num_classes = lmk_count*2, batch_size = batch_size, mix_rate=0.7,op_type = 'MixUp')
+        #act_mix = mx.sym.Activation(data=mix_data,act_type='relu',name='act_mix')
         
+        #conv_mix = ConvFactory('conv_mix',act_mix, 42, 1, 1, 0)
+        #mix_re = mx.symbol.Flatten(data=conv_mix)
+
         label_lmk = mx.symbol.slice_axis(data=label[0], axis=1, begin=offset, end=offset+lmk_count*2)
         label_lmk = mx.symbol.Flatten(data=label_lmk)
         loss_lmk = mx.sym.LinearRegressionOutput(data=conv10_2, label=label_lmk, grad_scale=1)

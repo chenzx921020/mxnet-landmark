@@ -2,14 +2,17 @@
 # coding=utf-8
 import sys,os
 import mxnet as mx      
-import cv2              
+import cv2
 import numpy as np      
 from collections import namedtuple
+import mixup
+
+
 
 if __name__ == '__main__':   
     Batch = namedtuple('Batch', ['data'])
     sym,arg_params,aux_params = mx.model.load_checkpoint('tmp/model',300)
-    
+    print sym.get_internals()
     mod = mx.mod.Module(symbol=sym,context=mx.cpu(),data_names=['data'],label_names=[])
     mod.bind(for_training=False,data_shapes=[('data',(1,1,72,72))],label_shapes=mod._label_shapes)
     mod.set_params(arg_params,aux_params)
@@ -50,7 +53,7 @@ if __name__ == '__main__':
     #result get
     prob = mod.get_outputs()[0].asnumpy()    
     prob = np.squeeze(prob)
-    
+    print prob 
     #print result on image
     new_img=cv2.imread(img_url)
     for i in range(0,21):

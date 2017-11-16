@@ -100,7 +100,7 @@ def fit(sym, train, val, batch_size, num_gpus):
             batch_end_callback = mx.callback.Speedometer(batch_size, 64),
             kvstore            ='device',
             optimizer          ='adam',
-            optimizer_params   = {'learning_rate':0.1,'lr_scheduler': mx.lr_scheduler.FactorScheduler(step=500,factor=0.6)},
+            optimizer_params   = {'learning_rate':0.1,'lr_scheduler': mx.lr_scheduler.FactorScheduler(step=500,factor=1)},
             initializer        = mx.init.Xavier(rnd_type='uniform', factor_type="avg", magnitude=2.34),
             epoch_end_callback = mx.callback.do_checkpoint(model_prefix),
             eval_metric        = metric,
