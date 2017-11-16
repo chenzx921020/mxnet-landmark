@@ -1,0 +1,1617 @@
+[23:03:13] src/io/./image_iter_common.h:76: Loaded ImageList from /home/users/zhixuan.chen/data/train.lst 999 Image records
+[23:03:13] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: /home/users/zhixuan.chen/data/train.rec, use 4 threads for decoding..
+[23:03:14] src/io/./image_iter_common.h:76: Loaded ImageList from /home/users/zhixuan.chen/data/val.lst 589 Image records
+[23:03:14] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: /home/users/zhixuan.chen/data/val.rec, use 4 threads for decoding..
+[23:03:15] src/operator/././cudnn_algoreg-inl.h:106: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+2017-11-15 23:03:16,430 Epoch[0] Train-LmkMetric_0=14729.282766
+2017-11-15 23:03:16,430 Epoch[0] Time cost=0.381
+2017-11-15 23:03:16,442 Saved checkpoint to "./tmp/model-0001.params"
+2017-11-15 23:03:16,524 Epoch[0] Validation-LmkMetric_0=0.338967
+2017-11-15 23:03:16,802 Epoch[1] Train-LmkMetric_0=0.372820
+2017-11-15 23:03:16,803 Epoch[1] Time cost=0.278
+2017-11-15 23:03:16,825 Saved checkpoint to "./tmp/model-0002.params"
+2017-11-15 23:03:16,919 Epoch[1] Validation-LmkMetric_0=0.328296
+2017-11-15 23:03:17,227 Epoch[2] Train-LmkMetric_0=0.240913
+2017-11-15 23:03:17,227 Epoch[2] Time cost=0.308
+2017-11-15 23:03:17,233 Saved checkpoint to "./tmp/model-0003.params"
+2017-11-15 23:03:17,295 Epoch[2] Validation-LmkMetric_0=0.370256
+2017-11-15 23:03:17,595 Epoch[3] Train-LmkMetric_0=0.232893
+2017-11-15 23:03:17,596 Epoch[3] Time cost=0.300
+2017-11-15 23:03:17,604 Saved checkpoint to "./tmp/model-0004.params"
+2017-11-15 23:03:17,677 Epoch[3] Validation-LmkMetric_0=0.309433
+2017-11-15 23:03:18,014 Epoch[4] Train-LmkMetric_0=0.238955
+2017-11-15 23:03:18,014 Epoch[4] Time cost=0.336
+2017-11-15 23:03:18,023 Saved checkpoint to "./tmp/model-0005.params"
+2017-11-15 23:03:18,101 Epoch[4] Validation-LmkMetric_0=0.323856
+2017-11-15 23:03:18,408 Epoch[5] Train-LmkMetric_0=0.240873
+2017-11-15 23:03:18,408 Epoch[5] Time cost=0.307
+2017-11-15 23:03:18,414 Saved checkpoint to "./tmp/model-0006.params"
+2017-11-15 23:03:18,484 Epoch[5] Validation-LmkMetric_0=0.287026
+2017-11-15 23:03:18,771 Epoch[6] Train-LmkMetric_0=0.227679
+2017-11-15 23:03:18,771 Epoch[6] Time cost=0.287
+2017-11-15 23:03:18,780 Saved checkpoint to "./tmp/model-0007.params"
+2017-11-15 23:03:18,846 Epoch[6] Validation-LmkMetric_0=0.361794
+2017-11-15 23:03:19,169 Epoch[7] Train-LmkMetric_0=0.226924
+2017-11-15 23:03:19,170 Epoch[7] Time cost=0.323
+2017-11-15 23:03:19,176 Saved checkpoint to "./tmp/model-0008.params"
+2017-11-15 23:03:19,236 Epoch[7] Validation-LmkMetric_0=0.374123
+2017-11-15 23:03:19,546 Epoch[8] Train-LmkMetric_0=0.222761
+2017-11-15 23:03:19,546 Epoch[8] Time cost=0.310
+2017-11-15 23:03:19,558 Saved checkpoint to "./tmp/model-0009.params"
+2017-11-15 23:03:19,621 Epoch[8] Validation-LmkMetric_0=0.332491
+2017-11-15 23:03:19,919 Epoch[9] Train-LmkMetric_0=0.232910
+2017-11-15 23:03:19,919 Epoch[9] Time cost=0.297
+2017-11-15 23:03:19,929 Saved checkpoint to "./tmp/model-0010.params"
+2017-11-15 23:03:19,990 Epoch[9] Validation-LmkMetric_0=0.404159
+2017-11-15 23:03:20,256 Epoch[10] Train-LmkMetric_0=0.228932
+2017-11-15 23:03:20,256 Epoch[10] Time cost=0.267
+2017-11-15 23:03:20,269 Saved checkpoint to "./tmp/model-0011.params"
+2017-11-15 23:03:20,344 Epoch[10] Validation-LmkMetric_0=0.333997
+2017-11-15 23:03:20,594 Epoch[11] Train-LmkMetric_0=0.231858
+2017-11-15 23:03:20,595 Epoch[11] Time cost=0.250
+2017-11-15 23:03:20,607 Saved checkpoint to "./tmp/model-0012.params"
+2017-11-15 23:03:20,692 Epoch[11] Validation-LmkMetric_0=0.385743
+2017-11-15 23:03:20,891 Epoch[12] Train-LmkMetric_0=0.234271
+2017-11-15 23:03:20,891 Epoch[12] Time cost=0.199
+2017-11-15 23:03:20,904 Saved checkpoint to "./tmp/model-0013.params"
+2017-11-15 23:03:21,038 Epoch[12] Validation-LmkMetric_0=0.375636
+2017-11-15 23:03:21,242 Epoch[13] Train-LmkMetric_0=0.242356
+2017-11-15 23:03:21,242 Epoch[13] Time cost=0.204
+2017-11-15 23:03:21,251 Saved checkpoint to "./tmp/model-0014.params"
+2017-11-15 23:03:21,392 Epoch[13] Validation-LmkMetric_0=0.312931
+2017-11-15 23:03:21,613 Epoch[14] Train-LmkMetric_0=0.241713
+2017-11-15 23:03:21,613 Epoch[14] Time cost=0.220
+2017-11-15 23:03:21,622 Saved checkpoint to "./tmp/model-0015.params"
+2017-11-15 23:03:21,743 Epoch[14] Validation-LmkMetric_0=0.410874
+2017-11-15 23:03:21,956 Epoch[15] Train-LmkMetric_0=0.230994
+2017-11-15 23:03:21,956 Epoch[15] Time cost=0.213
+2017-11-15 23:03:21,965 Saved checkpoint to "./tmp/model-0016.params"
+2017-11-15 23:03:22,030 Epoch[15] Validation-LmkMetric_0=0.371867
+2017-11-15 23:03:22,309 Epoch[16] Train-LmkMetric_0=0.236273
+2017-11-15 23:03:22,311 Epoch[16] Time cost=0.280
+2017-11-15 23:03:22,320 Saved checkpoint to "./tmp/model-0017.params"
+2017-11-15 23:03:22,384 Epoch[16] Validation-LmkMetric_0=0.413313
+2017-11-15 23:03:22,671 Epoch[17] Train-LmkMetric_0=0.242841
+2017-11-15 23:03:22,672 Epoch[17] Time cost=0.287
+2017-11-15 23:03:22,680 Saved checkpoint to "./tmp/model-0018.params"
+2017-11-15 23:03:22,753 Epoch[17] Validation-LmkMetric_0=0.347316
+2017-11-15 23:03:23,028 Epoch[18] Train-LmkMetric_0=0.237663
+2017-11-15 23:03:23,029 Epoch[18] Time cost=0.275
+2017-11-15 23:03:23,037 Saved checkpoint to "./tmp/model-0019.params"
+2017-11-15 23:03:23,101 Epoch[18] Validation-LmkMetric_0=0.328173
+2017-11-15 23:03:23,407 Epoch[19] Train-LmkMetric_0=0.229657
+2017-11-15 23:03:23,407 Epoch[19] Time cost=0.306
+2017-11-15 23:03:23,416 Saved checkpoint to "./tmp/model-0020.params"
+2017-11-15 23:03:23,478 Epoch[19] Validation-LmkMetric_0=0.390382
+2017-11-15 23:03:23,761 Epoch[20] Train-LmkMetric_0=0.232370
+2017-11-15 23:03:23,761 Epoch[20] Time cost=0.283
+2017-11-15 23:03:23,775 Saved checkpoint to "./tmp/model-0021.params"
+2017-11-15 23:03:23,855 Epoch[20] Validation-LmkMetric_0=0.338108
+2017-11-15 23:03:24,189 Epoch[21] Train-LmkMetric_0=0.227580
+2017-11-15 23:03:24,189 Epoch[21] Time cost=0.333
+2017-11-15 23:03:24,202 Saved checkpoint to "./tmp/model-0022.params"
+2017-11-15 23:03:24,272 Epoch[21] Validation-LmkMetric_0=0.359049
+2017-11-15 23:03:24,584 Epoch[22] Train-LmkMetric_0=0.224629
+2017-11-15 23:03:24,584 Epoch[22] Time cost=0.312
+2017-11-15 23:03:24,594 Saved checkpoint to "./tmp/model-0023.params"
+2017-11-15 23:03:24,657 Epoch[22] Validation-LmkMetric_0=0.394794
+2017-11-15 23:03:24,938 Epoch[23] Train-LmkMetric_0=0.229539
+2017-11-15 23:03:24,939 Epoch[23] Time cost=0.281
+2017-11-15 23:03:24,953 Saved checkpoint to "./tmp/model-0024.params"
+2017-11-15 23:03:25,033 Epoch[23] Validation-LmkMetric_0=0.303891
+2017-11-15 23:03:25,316 Epoch[24] Train-LmkMetric_0=0.228937
+2017-11-15 23:03:25,316 Epoch[24] Time cost=0.283
+2017-11-15 23:03:25,326 Saved checkpoint to "./tmp/model-0025.params"
+2017-11-15 23:03:25,397 Epoch[24] Validation-LmkMetric_0=0.388283
+2017-11-15 23:03:25,559 Epoch[25] Train-LmkMetric_0=0.232687
+2017-11-15 23:03:25,559 Epoch[25] Time cost=0.162
+2017-11-15 23:03:25,585 Saved checkpoint to "./tmp/model-0026.params"
+2017-11-15 23:03:25,749 Epoch[25] Validation-LmkMetric_0=0.351181
+2017-11-15 23:03:25,956 Epoch[26] Train-LmkMetric_0=0.241491
+2017-11-15 23:03:25,957 Epoch[26] Time cost=0.208
+2017-11-15 23:03:25,980 Saved checkpoint to "./tmp/model-0027.params"
+2017-11-15 23:03:26,117 Epoch[26] Validation-LmkMetric_0=0.360210
+2017-11-15 23:03:26,303 Epoch[27] Train-LmkMetric_0=0.229384
+2017-11-15 23:03:26,303 Epoch[27] Time cost=0.186
+2017-11-15 23:03:26,312 Saved checkpoint to "./tmp/model-0028.params"
+2017-11-15 23:03:26,489 Epoch[27] Validation-LmkMetric_0=0.393770
+2017-11-15 23:03:26,647 Epoch[28] Train-LmkMetric_0=0.232722
+2017-11-15 23:03:26,647 Epoch[28] Time cost=0.157
+2017-11-15 23:03:26,654 Saved checkpoint to "./tmp/model-0029.params"
+2017-11-15 23:03:26,811 Epoch[28] Validation-LmkMetric_0=0.316789
+2017-11-15 23:03:27,044 Epoch[29] Train-LmkMetric_0=0.225477
+2017-11-15 23:03:27,044 Epoch[29] Time cost=0.223
+2017-11-15 23:03:27,060 Saved checkpoint to "./tmp/model-0030.params"
+2017-11-15 23:03:27,224 Epoch[29] Validation-LmkMetric_0=0.349993
+2017-11-15 23:03:27,405 Epoch[30] Train-LmkMetric_0=0.242746
+2017-11-15 23:03:27,405 Epoch[30] Time cost=0.181
+2017-11-15 23:03:27,413 Saved checkpoint to "./tmp/model-0031.params"
+2017-11-15 23:03:27,527 Epoch[30] Validation-LmkMetric_0=0.439797
+2017-11-15 23:03:27,786 Epoch[31] Train-LmkMetric_0=0.251260
+2017-11-15 23:03:27,786 Epoch[31] Time cost=0.258
+2017-11-15 23:03:27,812 Saved checkpoint to "./tmp/model-0032.params"
+2017-11-15 23:03:27,956 Epoch[31] Validation-LmkMetric_0=0.378931
+2017-11-15 23:03:27,990 Update[501]: Change learning rate to 1.00000e-01
+2017-11-15 23:03:28,250 Epoch[32] Train-LmkMetric_0=0.241166
+2017-11-15 23:03:28,250 Epoch[32] Time cost=0.293
+2017-11-15 23:03:28,260 Saved checkpoint to "./tmp/model-0033.params"
+2017-11-15 23:03:28,381 Epoch[32] Validation-LmkMetric_0=0.414493
+2017-11-15 23:03:28,631 Epoch[33] Train-LmkMetric_0=0.236286
+2017-11-15 23:03:28,632 Epoch[33] Time cost=0.250
+2017-11-15 23:03:28,640 Saved checkpoint to "./tmp/model-0034.params"
+2017-11-15 23:03:28,732 Epoch[33] Validation-LmkMetric_0=0.299948
+2017-11-15 23:03:29,056 Epoch[34] Train-LmkMetric_0=0.228009
+2017-11-15 23:03:29,056 Epoch[34] Time cost=0.324
+2017-11-15 23:03:29,062 Saved checkpoint to "./tmp/model-0035.params"
+2017-11-15 23:03:29,125 Epoch[34] Validation-LmkMetric_0=0.391085
+2017-11-15 23:03:29,412 Epoch[35] Train-LmkMetric_0=0.234984
+2017-11-15 23:03:29,413 Epoch[35] Time cost=0.287
+2017-11-15 23:03:29,423 Saved checkpoint to "./tmp/model-0036.params"
+2017-11-15 23:03:29,492 Epoch[35] Validation-LmkMetric_0=0.384774
+2017-11-15 23:03:29,714 Epoch[36] Train-LmkMetric_0=0.239761
+2017-11-15 23:03:29,714 Epoch[36] Time cost=0.221
+2017-11-15 23:03:29,732 Saved checkpoint to "./tmp/model-0037.params"
+2017-11-15 23:03:29,868 Epoch[36] Validation-LmkMetric_0=0.334350
+2017-11-15 23:03:30,087 Epoch[37] Train-LmkMetric_0=0.224366
+2017-11-15 23:03:30,087 Epoch[37] Time cost=0.211
+2017-11-15 23:03:30,112 Saved checkpoint to "./tmp/model-0038.params"
+2017-11-15 23:03:30,259 Epoch[37] Validation-LmkMetric_0=0.391425
+2017-11-15 23:03:30,449 Epoch[38] Train-LmkMetric_0=0.229756
+2017-11-15 23:03:30,449 Epoch[38] Time cost=0.190
+2017-11-15 23:03:30,479 Saved checkpoint to "./tmp/model-0039.params"
+2017-11-15 23:03:30,620 Epoch[38] Validation-LmkMetric_0=0.325191
+2017-11-15 23:03:30,861 Epoch[39] Train-LmkMetric_0=0.224027
+2017-11-15 23:03:30,862 Epoch[39] Time cost=0.241
+2017-11-15 23:03:30,877 Saved checkpoint to "./tmp/model-0040.params"
+2017-11-15 23:03:31,018 Epoch[39] Validation-LmkMetric_0=0.353758
+2017-11-15 23:03:31,238 Epoch[40] Train-LmkMetric_0=0.229660
+2017-11-15 23:03:31,239 Epoch[40] Time cost=0.220
+2017-11-15 23:03:31,253 Saved checkpoint to "./tmp/model-0041.params"
+2017-11-15 23:03:31,354 Epoch[40] Validation-LmkMetric_0=0.394444
+2017-11-15 23:03:31,589 Epoch[41] Train-LmkMetric_0=0.231542
+2017-11-15 23:03:31,589 Epoch[41] Time cost=0.234
+2017-11-15 23:03:31,617 Saved checkpoint to "./tmp/model-0042.params"
+2017-11-15 23:03:31,749 Epoch[41] Validation-LmkMetric_0=0.332156
+2017-11-15 23:03:31,950 Epoch[42] Train-LmkMetric_0=0.230021
+2017-11-15 23:03:31,950 Epoch[42] Time cost=0.201
+2017-11-15 23:03:31,973 Saved checkpoint to "./tmp/model-0043.params"
+2017-11-15 23:03:32,167 Epoch[42] Validation-LmkMetric_0=0.409502
+2017-11-15 23:03:32,448 Epoch[43] Train-LmkMetric_0=0.225313
+2017-11-15 23:03:32,449 Epoch[43] Time cost=0.282
+2017-11-15 23:03:32,459 Saved checkpoint to "./tmp/model-0044.params"
+2017-11-15 23:03:32,543 Epoch[43] Validation-LmkMetric_0=0.371855
+2017-11-15 23:03:32,845 Epoch[44] Train-LmkMetric_0=0.230431
+2017-11-15 23:03:32,845 Epoch[44] Time cost=0.302
+2017-11-15 23:03:32,853 Saved checkpoint to "./tmp/model-0045.params"
+2017-11-15 23:03:32,918 Epoch[44] Validation-LmkMetric_0=0.390725
+2017-11-15 23:03:33,208 Epoch[45] Train-LmkMetric_0=0.231989
+2017-11-15 23:03:33,208 Epoch[45] Time cost=0.290
+2017-11-15 23:03:33,215 Saved checkpoint to "./tmp/model-0046.params"
+2017-11-15 23:03:33,275 Epoch[45] Validation-LmkMetric_0=0.415194
+2017-11-15 23:03:33,513 Epoch[46] Train-LmkMetric_0=0.238400
+2017-11-15 23:03:33,513 Epoch[46] Time cost=0.238
+2017-11-15 23:03:33,526 Saved checkpoint to "./tmp/model-0047.params"
+2017-11-15 23:03:33,616 Epoch[46] Validation-LmkMetric_0=0.305566
+2017-11-15 23:03:33,869 Epoch[47] Train-LmkMetric_0=0.226840
+2017-11-15 23:03:33,883 Epoch[47] Time cost=0.265
+2017-11-15 23:03:33,898 Saved checkpoint to "./tmp/model-0048.params"
+2017-11-15 23:03:34,018 Epoch[47] Validation-LmkMetric_0=0.400547
+2017-11-15 23:03:34,332 Epoch[48] Train-LmkMetric_0=0.231671
+2017-11-15 23:03:34,333 Epoch[48] Time cost=0.314
+2017-11-15 23:03:34,341 Saved checkpoint to "./tmp/model-0049.params"
+2017-11-15 23:03:34,419 Epoch[48] Validation-LmkMetric_0=0.355276
+2017-11-15 23:03:34,712 Epoch[49] Train-LmkMetric_0=0.231417
+2017-11-15 23:03:34,713 Epoch[49] Time cost=0.294
+2017-11-15 23:03:34,723 Saved checkpoint to "./tmp/model-0050.params"
+2017-11-15 23:03:34,795 Epoch[49] Validation-LmkMetric_0=0.340939
+2017-11-15 23:03:35,107 Epoch[50] Train-LmkMetric_0=0.226087
+2017-11-15 23:03:35,108 Epoch[50] Time cost=0.312
+2017-11-15 23:03:35,114 Saved checkpoint to "./tmp/model-0051.params"
+2017-11-15 23:03:35,177 Epoch[50] Validation-LmkMetric_0=0.396971
+2017-11-15 23:03:35,487 Epoch[51] Train-LmkMetric_0=0.228277
+2017-11-15 23:03:35,487 Epoch[51] Time cost=0.309
+2017-11-15 23:03:35,494 Saved checkpoint to "./tmp/model-0052.params"
+2017-11-15 23:03:35,572 Epoch[51] Validation-LmkMetric_0=0.319661
+2017-11-15 23:03:35,891 Epoch[52] Train-LmkMetric_0=0.226554
+2017-11-15 23:03:35,892 Epoch[52] Time cost=0.319
+2017-11-15 23:03:35,900 Saved checkpoint to "./tmp/model-0053.params"
+2017-11-15 23:03:35,970 Epoch[52] Validation-LmkMetric_0=0.406981
+2017-11-15 23:03:36,255 Epoch[53] Train-LmkMetric_0=0.230980
+2017-11-15 23:03:36,256 Epoch[53] Time cost=0.286
+2017-11-15 23:03:36,265 Saved checkpoint to "./tmp/model-0054.params"
+2017-11-15 23:03:36,332 Epoch[53] Validation-LmkMetric_0=0.380594
+2017-11-15 23:03:36,632 Epoch[54] Train-LmkMetric_0=0.239766
+2017-11-15 23:03:36,632 Epoch[54] Time cost=0.299
+2017-11-15 23:03:36,638 Saved checkpoint to "./tmp/model-0055.params"
+2017-11-15 23:03:36,702 Epoch[54] Validation-LmkMetric_0=0.323562
+2017-11-15 23:03:37,045 Epoch[55] Train-LmkMetric_0=0.225231
+2017-11-15 23:03:37,045 Epoch[55] Time cost=0.343
+2017-11-15 23:03:37,052 Saved checkpoint to "./tmp/model-0056.params"
+2017-11-15 23:03:37,126 Epoch[55] Validation-LmkMetric_0=0.379194
+2017-11-15 23:03:37,426 Epoch[56] Train-LmkMetric_0=0.225950
+2017-11-15 23:03:37,426 Epoch[56] Time cost=0.300
+2017-11-15 23:03:37,433 Saved checkpoint to "./tmp/model-0057.params"
+2017-11-15 23:03:37,500 Epoch[56] Validation-LmkMetric_0=0.319937
+2017-11-15 23:03:37,812 Epoch[57] Train-LmkMetric_0=0.220280
+2017-11-15 23:03:37,813 Epoch[57] Time cost=0.311
+2017-11-15 23:03:37,819 Saved checkpoint to "./tmp/model-0058.params"
+2017-11-15 23:03:37,885 Epoch[57] Validation-LmkMetric_0=0.371256
+2017-11-15 23:03:38,191 Epoch[58] Train-LmkMetric_0=0.230523
+2017-11-15 23:03:38,192 Epoch[58] Time cost=0.306
+2017-11-15 23:03:38,198 Saved checkpoint to "./tmp/model-0059.params"
+2017-11-15 23:03:38,289 Epoch[58] Validation-LmkMetric_0=0.345921
+2017-11-15 23:03:38,599 Epoch[59] Train-LmkMetric_0=0.232767
+2017-11-15 23:03:38,600 Epoch[59] Time cost=0.310
+2017-11-15 23:03:38,608 Saved checkpoint to "./tmp/model-0060.params"
+2017-11-15 23:03:38,671 Epoch[59] Validation-LmkMetric_0=0.313503
+2017-11-15 23:03:38,964 Epoch[60] Train-LmkMetric_0=0.226779
+2017-11-15 23:03:38,965 Epoch[60] Time cost=0.294
+2017-11-15 23:03:38,972 Saved checkpoint to "./tmp/model-0061.params"
+2017-11-15 23:03:39,033 Epoch[60] Validation-LmkMetric_0=0.403832
+2017-11-15 23:03:39,310 Epoch[61] Train-LmkMetric_0=0.230112
+2017-11-15 23:03:39,311 Epoch[61] Time cost=0.277
+2017-11-15 23:03:39,324 Saved checkpoint to "./tmp/model-0062.params"
+2017-11-15 23:03:39,391 Epoch[61] Validation-LmkMetric_0=0.325056
+2017-11-15 23:03:39,661 Epoch[62] Train-LmkMetric_0=0.223863
+2017-11-15 23:03:39,662 Epoch[62] Time cost=0.270
+2017-11-15 23:03:39,699 Saved checkpoint to "./tmp/model-0063.params"
+2017-11-15 23:03:39,755 Epoch[62] Validation-LmkMetric_0=0.345320
+2017-11-15 23:03:40,018 Epoch[63] Train-LmkMetric_0=0.226191
+2017-11-15 23:03:40,018 Epoch[63] Time cost=0.263
+2017-11-15 23:03:40,035 Saved checkpoint to "./tmp/model-0064.params"
+2017-11-15 23:03:40,125 Epoch[63] Validation-LmkMetric_0=0.357767
+2017-11-15 23:03:40,173 Update[1001]: Change learning rate to 1.00000e-01
+2017-11-15 23:03:40,450 Epoch[64] Train-LmkMetric_0=0.232930
+2017-11-15 23:03:40,450 Epoch[64] Time cost=0.317
+2017-11-15 23:03:40,456 Saved checkpoint to "./tmp/model-0065.params"
+2017-11-15 23:03:40,517 Epoch[64] Validation-LmkMetric_0=0.308987
+2017-11-15 23:03:40,822 Epoch[65] Train-LmkMetric_0=0.223782
+2017-11-15 23:03:40,823 Epoch[65] Time cost=0.305
+2017-11-15 23:03:40,830 Saved checkpoint to "./tmp/model-0066.params"
+2017-11-15 23:03:40,897 Epoch[65] Validation-LmkMetric_0=0.402365
+2017-11-15 23:03:41,179 Epoch[66] Train-LmkMetric_0=0.230511
+2017-11-15 23:03:41,180 Epoch[66] Time cost=0.282
+2017-11-15 23:03:41,187 Saved checkpoint to "./tmp/model-0067.params"
+2017-11-15 23:03:41,253 Epoch[66] Validation-LmkMetric_0=0.329698
+2017-11-15 23:03:41,589 Epoch[67] Train-LmkMetric_0=0.225275
+2017-11-15 23:03:41,590 Epoch[67] Time cost=0.336
+2017-11-15 23:03:41,597 Saved checkpoint to "./tmp/model-0068.params"
+2017-11-15 23:03:41,674 Epoch[67] Validation-LmkMetric_0=0.320020
+2017-11-15 23:03:41,963 Epoch[68] Train-LmkMetric_0=0.221466
+2017-11-15 23:03:41,967 Epoch[68] Time cost=0.291
+2017-11-15 23:03:41,975 Saved checkpoint to "./tmp/model-0069.params"
+2017-11-15 23:03:42,036 Epoch[68] Validation-LmkMetric_0=0.385922
+2017-11-15 23:03:42,353 Epoch[69] Train-LmkMetric_0=0.228034
+2017-11-15 23:03:42,354 Epoch[69] Time cost=0.317
+2017-11-15 23:03:42,359 Saved checkpoint to "./tmp/model-0070.params"
+2017-11-15 23:03:42,422 Epoch[69] Validation-LmkMetric_0=0.308476
+2017-11-15 23:03:42,739 Epoch[70] Train-LmkMetric_0=0.226488
+2017-11-15 23:03:42,739 Epoch[70] Time cost=0.316
+2017-11-15 23:03:42,749 Saved checkpoint to "./tmp/model-0071.params"
+2017-11-15 23:03:42,812 Epoch[70] Validation-LmkMetric_0=0.388984
+2017-11-15 23:03:43,048 Epoch[71] Train-LmkMetric_0=0.227877
+2017-11-15 23:03:43,048 Epoch[71] Time cost=0.236
+2017-11-15 23:03:43,061 Saved checkpoint to "./tmp/model-0072.params"
+2017-11-15 23:03:43,143 Epoch[71] Validation-LmkMetric_0=0.365733
+2017-11-15 23:03:43,391 Epoch[72] Train-LmkMetric_0=0.223738
+2017-11-15 23:03:43,391 Epoch[72] Time cost=0.248
+2017-11-15 23:03:43,418 Saved checkpoint to "./tmp/model-0073.params"
+2017-11-15 23:03:43,528 Epoch[72] Validation-LmkMetric_0=0.353233
+2017-11-15 23:03:43,730 Epoch[73] Train-LmkMetric_0=0.239891
+2017-11-15 23:03:43,730 Epoch[73] Time cost=0.201
+2017-11-15 23:03:43,760 Saved checkpoint to "./tmp/model-0074.params"
+2017-11-15 23:03:43,899 Epoch[73] Validation-LmkMetric_0=0.410630
+2017-11-15 23:03:44,074 Epoch[74] Train-LmkMetric_0=0.230393
+2017-11-15 23:03:44,075 Epoch[74] Time cost=0.175
+2017-11-15 23:03:44,082 Saved checkpoint to "./tmp/model-0075.params"
+2017-11-15 23:03:44,246 Epoch[74] Validation-LmkMetric_0=0.339462
+2017-11-15 23:03:44,439 Epoch[75] Train-LmkMetric_0=0.227934
+2017-11-15 23:03:44,439 Epoch[75] Time cost=0.192
+2017-11-15 23:03:44,446 Saved checkpoint to "./tmp/model-0076.params"
+2017-11-15 23:03:44,554 Epoch[75] Validation-LmkMetric_0=0.388054
+2017-11-15 23:03:44,798 Epoch[76] Train-LmkMetric_0=0.235116
+2017-11-15 23:03:44,798 Epoch[76] Time cost=0.242
+2017-11-15 23:03:44,804 Saved checkpoint to "./tmp/model-0077.params"
+2017-11-15 23:03:44,913 Epoch[76] Validation-LmkMetric_0=0.336138
+2017-11-15 23:03:45,173 Epoch[77] Train-LmkMetric_0=0.229415
+2017-11-15 23:03:45,174 Epoch[77] Time cost=0.260
+2017-11-15 23:03:45,179 Saved checkpoint to "./tmp/model-0078.params"
+2017-11-15 23:03:45,310 Epoch[77] Validation-LmkMetric_0=0.320780
+2017-11-15 23:03:45,557 Epoch[78] Train-LmkMetric_0=0.230753
+2017-11-15 23:03:45,558 Epoch[78] Time cost=0.248
+2017-11-15 23:03:45,564 Saved checkpoint to "./tmp/model-0079.params"
+2017-11-15 23:03:45,637 Epoch[78] Validation-LmkMetric_0=0.377405
+2017-11-15 23:03:45,912 Epoch[79] Train-LmkMetric_0=0.227269
+2017-11-15 23:03:45,912 Epoch[79] Time cost=0.265
+2017-11-15 23:03:45,921 Saved checkpoint to "./tmp/model-0080.params"
+2017-11-15 23:03:45,995 Epoch[79] Validation-LmkMetric_0=0.310137
+2017-11-15 23:03:46,285 Epoch[80] Train-LmkMetric_0=0.219134
+2017-11-15 23:03:46,285 Epoch[80] Time cost=0.289
+2017-11-15 23:03:46,292 Saved checkpoint to "./tmp/model-0081.params"
+2017-11-15 23:03:46,367 Epoch[80] Validation-LmkMetric_0=0.346939
+2017-11-15 23:03:46,657 Epoch[81] Train-LmkMetric_0=0.226659
+2017-11-15 23:03:46,658 Epoch[81] Time cost=0.290
+2017-11-15 23:03:46,664 Saved checkpoint to "./tmp/model-0082.params"
+2017-11-15 23:03:46,738 Epoch[81] Validation-LmkMetric_0=0.338958
+2017-11-15 23:03:47,066 Epoch[82] Train-LmkMetric_0=0.225760
+2017-11-15 23:03:47,066 Epoch[82] Time cost=0.327
+2017-11-15 23:03:47,073 Saved checkpoint to "./tmp/model-0083.params"
+2017-11-15 23:03:47,154 Epoch[82] Validation-LmkMetric_0=0.318530
+2017-11-15 23:03:47,481 Epoch[83] Train-LmkMetric_0=0.228907
+2017-11-15 23:03:47,481 Epoch[83] Time cost=0.326
+2017-11-15 23:03:47,488 Saved checkpoint to "./tmp/model-0084.params"
+2017-11-15 23:03:47,557 Epoch[83] Validation-LmkMetric_0=0.376334
+2017-11-15 23:03:47,844 Epoch[84] Train-LmkMetric_0=0.227753
+2017-11-15 23:03:47,844 Epoch[84] Time cost=0.287
+2017-11-15 23:03:47,851 Saved checkpoint to "./tmp/model-0085.params"
+2017-11-15 23:03:47,910 Epoch[84] Validation-LmkMetric_0=0.321729
+2017-11-15 23:03:48,221 Epoch[85] Train-LmkMetric_0=0.216709
+2017-11-15 23:03:48,222 Epoch[85] Time cost=0.311
+2017-11-15 23:03:48,229 Saved checkpoint to "./tmp/model-0086.params"
+2017-11-15 23:03:48,297 Epoch[85] Validation-LmkMetric_0=0.348899
+2017-11-15 23:03:48,562 Epoch[86] Train-LmkMetric_0=0.221529
+2017-11-15 23:03:48,563 Epoch[86] Time cost=0.265
+2017-11-15 23:03:48,572 Saved checkpoint to "./tmp/model-0087.params"
+2017-11-15 23:03:48,652 Epoch[86] Validation-LmkMetric_0=0.377154
+2017-11-15 23:03:48,909 Epoch[87] Train-LmkMetric_0=0.227264
+2017-11-15 23:03:48,910 Epoch[87] Time cost=0.258
+2017-11-15 23:03:48,917 Saved checkpoint to "./tmp/model-0088.params"
+2017-11-15 23:03:49,008 Epoch[87] Validation-LmkMetric_0=0.313906
+2017-11-15 23:03:49,290 Epoch[88] Train-LmkMetric_0=0.227742
+2017-11-15 23:03:49,291 Epoch[88] Time cost=0.282
+2017-11-15 23:03:49,299 Saved checkpoint to "./tmp/model-0089.params"
+2017-11-15 23:03:49,364 Epoch[88] Validation-LmkMetric_0=0.377747
+2017-11-15 23:03:49,660 Epoch[89] Train-LmkMetric_0=0.228189
+2017-11-15 23:03:49,660 Epoch[89] Time cost=0.296
+2017-11-15 23:03:49,667 Saved checkpoint to "./tmp/model-0090.params"
+2017-11-15 23:03:49,720 Epoch[89] Validation-LmkMetric_0=0.319547
+2017-11-15 23:03:50,014 Epoch[90] Train-LmkMetric_0=0.216166
+2017-11-15 23:03:50,014 Epoch[90] Time cost=0.294
+2017-11-15 23:03:50,038 Saved checkpoint to "./tmp/model-0091.params"
+2017-11-15 23:03:50,097 Epoch[90] Validation-LmkMetric_0=0.344094
+2017-11-15 23:03:50,405 Epoch[91] Train-LmkMetric_0=0.225210
+2017-11-15 23:03:50,405 Epoch[91] Time cost=0.308
+2017-11-15 23:03:50,413 Saved checkpoint to "./tmp/model-0092.params"
+2017-11-15 23:03:50,478 Epoch[91] Validation-LmkMetric_0=0.377663
+2017-11-15 23:03:50,736 Epoch[92] Train-LmkMetric_0=0.227961
+2017-11-15 23:03:50,736 Epoch[92] Time cost=0.248
+2017-11-15 23:03:50,745 Saved checkpoint to "./tmp/model-0093.params"
+2017-11-15 23:03:50,858 Epoch[92] Validation-LmkMetric_0=0.309463
+2017-11-15 23:03:51,113 Epoch[93] Train-LmkMetric_0=0.227361
+2017-11-15 23:03:51,113 Epoch[93] Time cost=0.253
+2017-11-15 23:03:51,133 Saved checkpoint to "./tmp/model-0094.params"
+2017-11-15 23:03:51,226 Epoch[93] Validation-LmkMetric_0=0.369694
+2017-11-15 23:03:51,380 Epoch[94] Train-LmkMetric_0=0.227316
+2017-11-15 23:03:51,381 Epoch[94] Time cost=0.154
+2017-11-15 23:03:51,388 Saved checkpoint to "./tmp/model-0095.params"
+2017-11-15 23:03:51,518 Epoch[94] Validation-LmkMetric_0=0.377333
+2017-11-15 23:03:51,755 Epoch[95] Train-LmkMetric_0=0.231822
+2017-11-15 23:03:51,755 Epoch[95] Time cost=0.234
+2017-11-15 23:03:51,764 Saved checkpoint to "./tmp/model-0096.params"
+2017-11-15 23:03:51,886 Epoch[95] Validation-LmkMetric_0=0.311896
+2017-11-15 23:03:51,947 Update[1501]: Change learning rate to 1.00000e-01
+2017-11-15 23:03:52,116 Epoch[96] Train-LmkMetric_0=0.224084
+2017-11-15 23:03:52,117 Epoch[96] Time cost=0.230
+2017-11-15 23:03:52,124 Saved checkpoint to "./tmp/model-0097.params"
+2017-11-15 23:03:52,224 Epoch[96] Validation-LmkMetric_0=0.375900
+2017-11-15 23:03:52,519 Epoch[97] Train-LmkMetric_0=0.226472
+2017-11-15 23:03:52,520 Epoch[97] Time cost=0.295
+2017-11-15 23:03:52,531 Saved checkpoint to "./tmp/model-0098.params"
+2017-11-15 23:03:52,658 Epoch[97] Validation-LmkMetric_0=0.313623
+2017-11-15 23:03:52,912 Epoch[98] Train-LmkMetric_0=0.222067
+2017-11-15 23:03:52,912 Epoch[98] Time cost=0.254
+2017-11-15 23:03:52,919 Saved checkpoint to "./tmp/model-0099.params"
+2017-11-15 23:03:52,991 Epoch[98] Validation-LmkMetric_0=0.372135
+2017-11-15 23:03:53,292 Epoch[99] Train-LmkMetric_0=0.227088
+2017-11-15 23:03:53,292 Epoch[99] Time cost=0.301
+2017-11-15 23:03:53,300 Saved checkpoint to "./tmp/model-0100.params"
+2017-11-15 23:03:53,373 Epoch[99] Validation-LmkMetric_0=0.339507
+2017-11-15 23:03:53,657 Epoch[100] Train-LmkMetric_0=0.223652
+2017-11-15 23:03:53,657 Epoch[100] Time cost=0.284
+2017-11-15 23:03:53,665 Saved checkpoint to "./tmp/model-0101.params"
+2017-11-15 23:03:53,735 Epoch[100] Validation-LmkMetric_0=0.330853
+2017-11-15 23:03:54,045 Epoch[101] Train-LmkMetric_0=0.227205
+2017-11-15 23:03:54,045 Epoch[101] Time cost=0.310
+2017-11-15 23:03:54,053 Saved checkpoint to "./tmp/model-0102.params"
+2017-11-15 23:03:54,120 Epoch[101] Validation-LmkMetric_0=0.364543
+2017-11-15 23:03:54,410 Epoch[102] Train-LmkMetric_0=0.226912
+2017-11-15 23:03:54,410 Epoch[102] Time cost=0.290
+2017-11-15 23:03:54,418 Saved checkpoint to "./tmp/model-0103.params"
+2017-11-15 23:03:54,481 Epoch[102] Validation-LmkMetric_0=0.316053
+2017-11-15 23:03:54,793 Epoch[103] Train-LmkMetric_0=0.218052
+2017-11-15 23:03:54,794 Epoch[103] Time cost=0.312
+2017-11-15 23:03:54,799 Saved checkpoint to "./tmp/model-0104.params"
+2017-11-15 23:03:54,883 Epoch[103] Validation-LmkMetric_0=0.342858
+2017-11-15 23:03:55,163 Epoch[104] Train-LmkMetric_0=0.222244
+2017-11-15 23:03:55,163 Epoch[104] Time cost=0.280
+2017-11-15 23:03:55,171 Saved checkpoint to "./tmp/model-0105.params"
+2017-11-15 23:03:55,274 Epoch[104] Validation-LmkMetric_0=0.340368
+2017-11-15 23:03:55,534 Epoch[105] Train-LmkMetric_0=0.223444
+2017-11-15 23:03:55,534 Epoch[105] Time cost=0.258
+2017-11-15 23:03:55,540 Saved checkpoint to "./tmp/model-0106.params"
+2017-11-15 23:03:55,612 Epoch[105] Validation-LmkMetric_0=0.329011
+2017-11-15 23:03:55,920 Epoch[106] Train-LmkMetric_0=0.229074
+2017-11-15 23:03:55,921 Epoch[106] Time cost=0.308
+2017-11-15 23:03:55,927 Saved checkpoint to "./tmp/model-0107.params"
+2017-11-15 23:03:56,008 Epoch[106] Validation-LmkMetric_0=0.353833
+2017-11-15 23:03:56,307 Epoch[107] Train-LmkMetric_0=0.226504
+2017-11-15 23:03:56,307 Epoch[107] Time cost=0.299
+2017-11-15 23:03:56,313 Saved checkpoint to "./tmp/model-0108.params"
+2017-11-15 23:03:56,469 Epoch[107] Validation-LmkMetric_0=0.321449
+2017-11-15 23:03:56,872 Epoch[108] Train-LmkMetric_0=0.216424
+2017-11-15 23:03:56,872 Epoch[108] Time cost=0.398
+2017-11-15 23:03:56,904 Saved checkpoint to "./tmp/model-0109.params"
+2017-11-15 23:03:56,992 Epoch[108] Validation-LmkMetric_0=0.339651
+2017-11-15 23:03:57,311 Epoch[109] Train-LmkMetric_0=0.222612
+2017-11-15 23:03:57,311 Epoch[109] Time cost=0.319
+2017-11-15 23:03:57,318 Saved checkpoint to "./tmp/model-0110.params"
+2017-11-15 23:03:57,390 Epoch[109] Validation-LmkMetric_0=0.349984
+2017-11-15 23:03:57,669 Epoch[110] Train-LmkMetric_0=0.226326
+2017-11-15 23:03:57,669 Epoch[110] Time cost=0.278
+2017-11-15 23:03:57,678 Saved checkpoint to "./tmp/model-0111.params"
+2017-11-15 23:03:57,740 Epoch[110] Validation-LmkMetric_0=0.324895
+2017-11-15 23:03:58,069 Epoch[111] Train-LmkMetric_0=0.228200
+2017-11-15 23:03:58,069 Epoch[111] Time cost=0.329
+2017-11-15 23:03:58,077 Saved checkpoint to "./tmp/model-0112.params"
+2017-11-15 23:03:58,143 Epoch[111] Validation-LmkMetric_0=0.344451
+2017-11-15 23:03:58,442 Epoch[112] Train-LmkMetric_0=0.224870
+2017-11-15 23:03:58,442 Epoch[112] Time cost=0.298
+2017-11-15 23:03:58,457 Saved checkpoint to "./tmp/model-0113.params"
+2017-11-15 23:03:58,531 Epoch[112] Validation-LmkMetric_0=0.324905
+2017-11-15 23:03:58,853 Epoch[113] Train-LmkMetric_0=0.216389
+2017-11-15 23:03:58,853 Epoch[113] Time cost=0.323
+2017-11-15 23:03:58,861 Saved checkpoint to "./tmp/model-0114.params"
+2017-11-15 23:03:58,929 Epoch[113] Validation-LmkMetric_0=0.337685
+2017-11-15 23:03:59,244 Epoch[114] Train-LmkMetric_0=0.224165
+2017-11-15 23:03:59,245 Epoch[114] Time cost=0.315
+2017-11-15 23:03:59,254 Saved checkpoint to "./tmp/model-0115.params"
+2017-11-15 23:03:59,336 Epoch[114] Validation-LmkMetric_0=0.357200
+2017-11-15 23:03:59,613 Epoch[115] Train-LmkMetric_0=0.223543
+2017-11-15 23:03:59,614 Epoch[115] Time cost=0.277
+2017-11-15 23:03:59,622 Saved checkpoint to "./tmp/model-0116.params"
+2017-11-15 23:03:59,684 Epoch[115] Validation-LmkMetric_0=0.326628
+2017-11-15 23:03:59,946 Epoch[116] Train-LmkMetric_0=0.223809
+2017-11-15 23:03:59,947 Epoch[116] Time cost=0.262
+2017-11-15 23:03:59,957 Saved checkpoint to "./tmp/model-0117.params"
+2017-11-15 23:04:00,025 Epoch[116] Validation-LmkMetric_0=0.342063
+2017-11-15 23:04:00,313 Epoch[117] Train-LmkMetric_0=0.225606
+2017-11-15 23:04:00,314 Epoch[117] Time cost=0.288
+2017-11-15 23:04:00,321 Saved checkpoint to "./tmp/model-0118.params"
+2017-11-15 23:04:00,407 Epoch[117] Validation-LmkMetric_0=0.319526
+2017-11-15 23:04:00,720 Epoch[118] Train-LmkMetric_0=0.220289
+2017-11-15 23:04:00,720 Epoch[118] Time cost=0.312
+2017-11-15 23:04:00,727 Saved checkpoint to "./tmp/model-0119.params"
+2017-11-15 23:04:00,792 Epoch[118] Validation-LmkMetric_0=0.334333
+2017-11-15 23:04:01,081 Epoch[119] Train-LmkMetric_0=0.228651
+2017-11-15 23:04:01,082 Epoch[119] Time cost=0.289
+2017-11-15 23:04:01,088 Saved checkpoint to "./tmp/model-0120.params"
+2017-11-15 23:04:01,172 Epoch[119] Validation-LmkMetric_0=0.337077
+2017-11-15 23:04:01,460 Epoch[120] Train-LmkMetric_0=0.224074
+2017-11-15 23:04:01,461 Epoch[120] Time cost=0.289
+2017-11-15 23:04:01,468 Saved checkpoint to "./tmp/model-0121.params"
+2017-11-15 23:04:01,528 Epoch[120] Validation-LmkMetric_0=0.323935
+2017-11-15 23:04:01,842 Epoch[121] Train-LmkMetric_0=0.225884
+2017-11-15 23:04:01,843 Epoch[121] Time cost=0.314
+2017-11-15 23:04:01,852 Saved checkpoint to "./tmp/model-0122.params"
+2017-11-15 23:04:01,915 Epoch[121] Validation-LmkMetric_0=0.328585
+2017-11-15 23:04:02,214 Epoch[122] Train-LmkMetric_0=0.229577
+2017-11-15 23:04:02,214 Epoch[122] Time cost=0.299
+2017-11-15 23:04:02,222 Saved checkpoint to "./tmp/model-0123.params"
+2017-11-15 23:04:02,289 Epoch[122] Validation-LmkMetric_0=0.304346
+2017-11-15 23:04:02,584 Epoch[123] Train-LmkMetric_0=0.224117
+2017-11-15 23:04:02,584 Epoch[123] Time cost=0.294
+2017-11-15 23:04:02,590 Saved checkpoint to "./tmp/model-0124.params"
+2017-11-15 23:04:02,652 Epoch[123] Validation-LmkMetric_0=0.318434
+2017-11-15 23:04:02,949 Epoch[124] Train-LmkMetric_0=0.228935
+2017-11-15 23:04:02,949 Epoch[124] Time cost=0.296
+2017-11-15 23:04:02,955 Saved checkpoint to "./tmp/model-0125.params"
+2017-11-15 23:04:03,052 Epoch[124] Validation-LmkMetric_0=0.362602
+2017-11-15 23:04:03,314 Epoch[125] Train-LmkMetric_0=0.221963
+2017-11-15 23:04:03,314 Epoch[125] Time cost=0.261
+2017-11-15 23:04:03,320 Saved checkpoint to "./tmp/model-0126.params"
+2017-11-15 23:04:03,384 Epoch[125] Validation-LmkMetric_0=0.306458
+2017-11-15 23:04:03,694 Epoch[126] Train-LmkMetric_0=0.217078
+2017-11-15 23:04:03,694 Epoch[126] Time cost=0.310
+2017-11-15 23:04:03,700 Saved checkpoint to "./tmp/model-0127.params"
+2017-11-15 23:04:03,758 Epoch[126] Validation-LmkMetric_0=0.329687
+2017-11-15 23:04:04,034 Epoch[127] Train-LmkMetric_0=0.220791
+2017-11-15 23:04:04,035 Epoch[127] Time cost=0.276
+2017-11-15 23:04:04,042 Saved checkpoint to "./tmp/model-0128.params"
+2017-11-15 23:04:04,146 Epoch[127] Validation-LmkMetric_0=0.341724
+2017-11-15 23:04:04,286 Update[2001]: Change learning rate to 1.00000e-01
+2017-11-15 23:04:04,429 Epoch[128] Train-LmkMetric_0=0.225484
+2017-11-15 23:04:04,429 Epoch[128] Time cost=0.277
+2017-11-15 23:04:04,441 Saved checkpoint to "./tmp/model-0129.params"
+2017-11-15 23:04:04,563 Epoch[128] Validation-LmkMetric_0=0.312662
+2017-11-15 23:04:04,796 Epoch[129] Train-LmkMetric_0=0.230353
+2017-11-15 23:04:04,796 Epoch[129] Time cost=0.233
+2017-11-15 23:04:04,805 Saved checkpoint to "./tmp/model-0130.params"
+2017-11-15 23:04:04,987 Epoch[129] Validation-LmkMetric_0=0.343242
+2017-11-15 23:04:05,202 Epoch[130] Train-LmkMetric_0=0.224566
+2017-11-15 23:04:05,203 Epoch[130] Time cost=0.213
+2017-11-15 23:04:05,210 Saved checkpoint to "./tmp/model-0131.params"
+2017-11-15 23:04:05,339 Epoch[130] Validation-LmkMetric_0=0.317781
+2017-11-15 23:04:05,566 Epoch[131] Train-LmkMetric_0=0.215692
+2017-11-15 23:04:05,566 Epoch[131] Time cost=0.227
+2017-11-15 23:04:05,574 Saved checkpoint to "./tmp/model-0132.params"
+2017-11-15 23:04:05,748 Epoch[131] Validation-LmkMetric_0=0.327523
+2017-11-15 23:04:05,984 Epoch[132] Train-LmkMetric_0=0.223042
+2017-11-15 23:04:05,985 Epoch[132] Time cost=0.236
+2017-11-15 23:04:05,992 Saved checkpoint to "./tmp/model-0133.params"
+2017-11-15 23:04:06,156 Epoch[132] Validation-LmkMetric_0=0.335729
+2017-11-15 23:04:06,402 Epoch[133] Train-LmkMetric_0=0.224286
+2017-11-15 23:04:06,403 Epoch[133] Time cost=0.235
+2017-11-15 23:04:06,442 Saved checkpoint to "./tmp/model-0134.params"
+2017-11-15 23:04:06,547 Epoch[133] Validation-LmkMetric_0=0.308707
+2017-11-15 23:04:06,750 Epoch[134] Train-LmkMetric_0=0.224749
+2017-11-15 23:04:06,751 Epoch[134] Time cost=0.204
+2017-11-15 23:04:06,762 Saved checkpoint to "./tmp/model-0135.params"
+2017-11-15 23:04:06,900 Epoch[134] Validation-LmkMetric_0=0.350696
+2017-11-15 23:04:07,084 Epoch[135] Train-LmkMetric_0=0.222611
+2017-11-15 23:04:07,084 Epoch[135] Time cost=0.173
+2017-11-15 23:04:07,092 Saved checkpoint to "./tmp/model-0136.params"
+2017-11-15 23:04:07,159 Epoch[135] Validation-LmkMetric_0=0.315891
+2017-11-15 23:04:07,452 Epoch[136] Train-LmkMetric_0=0.218201
+2017-11-15 23:04:07,453 Epoch[136] Time cost=0.294
+2017-11-15 23:04:07,460 Saved checkpoint to "./tmp/model-0137.params"
+2017-11-15 23:04:07,564 Epoch[136] Validation-LmkMetric_0=0.322628
+2017-11-15 23:04:07,832 Epoch[137] Train-LmkMetric_0=0.224457
+2017-11-15 23:04:07,832 Epoch[137] Time cost=0.266
+2017-11-15 23:04:07,839 Saved checkpoint to "./tmp/model-0138.params"
+2017-11-15 23:04:07,931 Epoch[137] Validation-LmkMetric_0=0.346025
+2017-11-15 23:04:08,194 Epoch[138] Train-LmkMetric_0=0.220778
+2017-11-15 23:04:08,195 Epoch[138] Time cost=0.263
+2017-11-15 23:04:08,201 Saved checkpoint to "./tmp/model-0139.params"
+2017-11-15 23:04:08,263 Epoch[138] Validation-LmkMetric_0=0.308503
+2017-11-15 23:04:08,557 Epoch[139] Train-LmkMetric_0=0.221279
+2017-11-15 23:04:08,558 Epoch[139] Time cost=0.294
+2017-11-15 23:04:08,564 Saved checkpoint to "./tmp/model-0140.params"
+2017-11-15 23:04:08,632 Epoch[139] Validation-LmkMetric_0=0.345361
+2017-11-15 23:04:08,936 Epoch[140] Train-LmkMetric_0=0.225554
+2017-11-15 23:04:08,936 Epoch[140] Time cost=0.304
+2017-11-15 23:04:08,943 Saved checkpoint to "./tmp/model-0141.params"
+2017-11-15 23:04:09,015 Epoch[140] Validation-LmkMetric_0=0.313846
+2017-11-15 23:04:09,298 Epoch[141] Train-LmkMetric_0=0.219189
+2017-11-15 23:04:09,299 Epoch[141] Time cost=0.283
+2017-11-15 23:04:09,305 Saved checkpoint to "./tmp/model-0142.params"
+2017-11-15 23:04:09,379 Epoch[141] Validation-LmkMetric_0=0.313023
+2017-11-15 23:04:09,686 Epoch[142] Train-LmkMetric_0=0.224544
+2017-11-15 23:04:09,686 Epoch[142] Time cost=0.307
+2017-11-15 23:04:09,699 Saved checkpoint to "./tmp/model-0143.params"
+2017-11-15 23:04:09,774 Epoch[142] Validation-LmkMetric_0=0.346691
+2017-11-15 23:04:10,056 Epoch[143] Train-LmkMetric_0=0.222544
+2017-11-15 23:04:10,057 Epoch[143] Time cost=0.282
+2017-11-15 23:04:10,064 Saved checkpoint to "./tmp/model-0144.params"
+2017-11-15 23:04:10,131 Epoch[143] Validation-LmkMetric_0=0.315113
+2017-11-15 23:04:10,429 Epoch[144] Train-LmkMetric_0=0.216243
+2017-11-15 23:04:10,430 Epoch[144] Time cost=0.298
+2017-11-15 23:04:10,437 Saved checkpoint to "./tmp/model-0145.params"
+2017-11-15 23:04:10,507 Epoch[144] Validation-LmkMetric_0=0.332179
+2017-11-15 23:04:10,767 Epoch[145] Train-LmkMetric_0=0.221108
+2017-11-15 23:04:10,768 Epoch[145] Time cost=0.258
+2017-11-15 23:04:10,785 Saved checkpoint to "./tmp/model-0146.params"
+2017-11-15 23:04:10,871 Epoch[145] Validation-LmkMetric_0=0.331230
+2017-11-15 23:04:11,079 Epoch[146] Train-LmkMetric_0=0.220395
+2017-11-15 23:04:11,079 Epoch[146] Time cost=0.207
+2017-11-15 23:04:11,089 Saved checkpoint to "./tmp/model-0147.params"
+2017-11-15 23:04:11,277 Epoch[146] Validation-LmkMetric_0=0.316752
+2017-11-15 23:04:11,459 Epoch[147] Train-LmkMetric_0=0.225839
+2017-11-15 23:04:11,459 Epoch[147] Time cost=0.181
+2017-11-15 23:04:11,466 Saved checkpoint to "./tmp/model-0148.params"
+2017-11-15 23:04:11,601 Epoch[147] Validation-LmkMetric_0=0.341416
+2017-11-15 23:04:11,801 Epoch[148] Train-LmkMetric_0=0.220869
+2017-11-15 23:04:11,801 Epoch[148] Time cost=0.199
+2017-11-15 23:04:11,809 Saved checkpoint to "./tmp/model-0149.params"
+2017-11-15 23:04:11,921 Epoch[148] Validation-LmkMetric_0=0.314214
+2017-11-15 23:04:12,170 Epoch[149] Train-LmkMetric_0=0.214327
+2017-11-15 23:04:12,170 Epoch[149] Time cost=0.245
+2017-11-15 23:04:12,176 Saved checkpoint to "./tmp/model-0150.params"
+2017-11-15 23:04:12,249 Epoch[149] Validation-LmkMetric_0=0.327492
+2017-11-15 23:04:12,517 Epoch[150] Train-LmkMetric_0=0.219898
+2017-11-15 23:04:12,517 Epoch[150] Time cost=0.268
+2017-11-15 23:04:12,523 Saved checkpoint to "./tmp/model-0151.params"
+2017-11-15 23:04:12,602 Epoch[150] Validation-LmkMetric_0=0.333396
+2017-11-15 23:04:12,888 Epoch[151] Train-LmkMetric_0=0.221544
+2017-11-15 23:04:12,888 Epoch[151] Time cost=0.286
+2017-11-15 23:04:12,894 Saved checkpoint to "./tmp/model-0152.params"
+2017-11-15 23:04:12,970 Epoch[151] Validation-LmkMetric_0=0.318602
+2017-11-15 23:04:13,270 Epoch[152] Train-LmkMetric_0=0.225335
+2017-11-15 23:04:13,270 Epoch[152] Time cost=0.299
+2017-11-15 23:04:13,277 Saved checkpoint to "./tmp/model-0153.params"
+2017-11-15 23:04:13,362 Epoch[152] Validation-LmkMetric_0=0.333336
+2017-11-15 23:04:13,651 Epoch[153] Train-LmkMetric_0=0.219502
+2017-11-15 23:04:13,651 Epoch[153] Time cost=0.289
+2017-11-15 23:04:13,657 Saved checkpoint to "./tmp/model-0154.params"
+2017-11-15 23:04:13,719 Epoch[153] Validation-LmkMetric_0=0.314477
+2017-11-15 23:04:14,005 Epoch[154] Train-LmkMetric_0=0.215701
+2017-11-15 23:04:14,005 Epoch[154] Time cost=0.285
+2017-11-15 23:04:14,012 Saved checkpoint to "./tmp/model-0155.params"
+2017-11-15 23:04:14,083 Epoch[154] Validation-LmkMetric_0=0.322358
+2017-11-15 23:04:14,353 Epoch[155] Train-LmkMetric_0=0.219694
+2017-11-15 23:04:14,353 Epoch[155] Time cost=0.269
+2017-11-15 23:04:14,360 Saved checkpoint to "./tmp/model-0156.params"
+2017-11-15 23:04:14,419 Epoch[155] Validation-LmkMetric_0=0.339472
+2017-11-15 23:04:14,743 Epoch[156] Train-LmkMetric_0=0.221369
+2017-11-15 23:04:14,743 Epoch[156] Time cost=0.323
+2017-11-15 23:04:14,749 Saved checkpoint to "./tmp/model-0157.params"
+2017-11-15 23:04:14,823 Epoch[156] Validation-LmkMetric_0=0.314393
+2017-11-15 23:04:15,142 Epoch[157] Train-LmkMetric_0=0.226173
+2017-11-15 23:04:15,142 Epoch[157] Time cost=0.318
+2017-11-15 23:04:15,148 Saved checkpoint to "./tmp/model-0158.params"
+2017-11-15 23:04:15,213 Epoch[157] Validation-LmkMetric_0=0.329881
+2017-11-15 23:04:15,508 Epoch[158] Train-LmkMetric_0=0.222199
+2017-11-15 23:04:15,508 Epoch[158] Time cost=0.295
+2017-11-15 23:04:15,515 Saved checkpoint to "./tmp/model-0159.params"
+2017-11-15 23:04:15,628 Epoch[158] Validation-LmkMetric_0=0.316545
+2017-11-15 23:04:15,920 Epoch[159] Train-LmkMetric_0=0.215896
+2017-11-15 23:04:15,920 Epoch[159] Time cost=0.285
+2017-11-15 23:04:15,950 Saved checkpoint to "./tmp/model-0160.params"
+2017-11-15 23:04:16,138 Epoch[159] Validation-LmkMetric_0=0.325028
+2017-11-15 23:04:16,184 Update[2501]: Change learning rate to 1.00000e-01
+2017-11-15 23:04:16,420 Epoch[160] Train-LmkMetric_0=0.222939
+2017-11-15 23:04:16,421 Epoch[160] Time cost=0.282
+2017-11-15 23:04:16,431 Saved checkpoint to "./tmp/model-0161.params"
+2017-11-15 23:04:16,518 Epoch[160] Validation-LmkMetric_0=0.339829
+2017-11-15 23:04:16,820 Epoch[161] Train-LmkMetric_0=0.221007
+2017-11-15 23:04:16,821 Epoch[161] Time cost=0.302
+2017-11-15 23:04:16,833 Saved checkpoint to "./tmp/model-0162.params"
+2017-11-15 23:04:16,932 Epoch[161] Validation-LmkMetric_0=0.323284
+2017-11-15 23:04:17,259 Epoch[162] Train-LmkMetric_0=0.222369
+2017-11-15 23:04:17,259 Epoch[162] Time cost=0.327
+2017-11-15 23:04:17,267 Saved checkpoint to "./tmp/model-0163.params"
+2017-11-15 23:04:17,338 Epoch[162] Validation-LmkMetric_0=0.319110
+2017-11-15 23:04:17,568 Epoch[163] Train-LmkMetric_0=0.217209
+2017-11-15 23:04:17,569 Epoch[163] Time cost=0.230
+2017-11-15 23:04:17,586 Saved checkpoint to "./tmp/model-0164.params"
+2017-11-15 23:04:17,695 Epoch[163] Validation-LmkMetric_0=0.332140
+2017-11-15 23:04:17,866 Epoch[164] Train-LmkMetric_0=0.219164
+2017-11-15 23:04:17,867 Epoch[164] Time cost=0.172
+2017-11-15 23:04:17,884 Saved checkpoint to "./tmp/model-0165.params"
+2017-11-15 23:04:18,047 Epoch[164] Validation-LmkMetric_0=0.325938
+2017-11-15 23:04:18,225 Epoch[165] Train-LmkMetric_0=0.223898
+2017-11-15 23:04:18,226 Epoch[165] Time cost=0.174
+2017-11-15 23:04:18,232 Saved checkpoint to "./tmp/model-0166.params"
+2017-11-15 23:04:18,403 Epoch[165] Validation-LmkMetric_0=0.350656
+2017-11-15 23:04:18,593 Epoch[166] Train-LmkMetric_0=0.216863
+2017-11-15 23:04:18,594 Epoch[166] Time cost=0.190
+2017-11-15 23:04:18,600 Saved checkpoint to "./tmp/model-0167.params"
+2017-11-15 23:04:18,803 Epoch[166] Validation-LmkMetric_0=0.310257
+2017-11-15 23:04:18,991 Epoch[167] Train-LmkMetric_0=0.216117
+2017-11-15 23:04:18,991 Epoch[167] Time cost=0.188
+2017-11-15 23:04:18,999 Saved checkpoint to "./tmp/model-0168.params"
+2017-11-15 23:04:19,193 Epoch[167] Validation-LmkMetric_0=0.328531
+2017-11-15 23:04:19,415 Epoch[168] Train-LmkMetric_0=0.220214
+2017-11-15 23:04:19,416 Epoch[168] Time cost=0.222
+2017-11-15 23:04:19,423 Saved checkpoint to "./tmp/model-0169.params"
+2017-11-15 23:04:19,590 Epoch[168] Validation-LmkMetric_0=0.322551
+2017-11-15 23:04:19,824 Epoch[169] Train-LmkMetric_0=0.221154
+2017-11-15 23:04:19,825 Epoch[169] Time cost=0.234
+2017-11-15 23:04:19,843 Saved checkpoint to "./tmp/model-0170.params"
+2017-11-15 23:04:19,980 Epoch[169] Validation-LmkMetric_0=0.328947
+2017-11-15 23:04:20,265 Epoch[170] Train-LmkMetric_0=0.225394
+2017-11-15 23:04:20,266 Epoch[170] Time cost=0.285
+2017-11-15 23:04:20,304 Saved checkpoint to "./tmp/model-0171.params"
+2017-11-15 23:04:20,406 Epoch[170] Validation-LmkMetric_0=0.328498
+2017-11-15 23:04:20,582 Epoch[171] Train-LmkMetric_0=0.221040
+2017-11-15 23:04:20,582 Epoch[171] Time cost=0.175
+2017-11-15 23:04:20,593 Saved checkpoint to "./tmp/model-0172.params"
+2017-11-15 23:04:20,780 Epoch[171] Validation-LmkMetric_0=0.323119
+2017-11-15 23:04:20,989 Epoch[172] Train-LmkMetric_0=0.214742
+2017-11-15 23:04:20,990 Epoch[172] Time cost=0.209
+2017-11-15 23:04:21,013 Saved checkpoint to "./tmp/model-0173.params"
+2017-11-15 23:04:21,161 Epoch[172] Validation-LmkMetric_0=0.325805
+2017-11-15 23:04:21,325 Epoch[173] Train-LmkMetric_0=0.217122
+2017-11-15 23:04:21,325 Epoch[173] Time cost=0.163
+2017-11-15 23:04:21,332 Saved checkpoint to "./tmp/model-0174.params"
+2017-11-15 23:04:21,444 Epoch[173] Validation-LmkMetric_0=0.338988
+2017-11-15 23:04:21,661 Epoch[174] Train-LmkMetric_0=0.222341
+2017-11-15 23:04:21,661 Epoch[174] Time cost=0.217
+2017-11-15 23:04:21,667 Saved checkpoint to "./tmp/model-0175.params"
+2017-11-15 23:04:21,765 Epoch[174] Validation-LmkMetric_0=0.332328
+2017-11-15 23:04:22,044 Epoch[175] Train-LmkMetric_0=0.223683
+2017-11-15 23:04:22,045 Epoch[175] Time cost=0.279
+2017-11-15 23:04:22,052 Saved checkpoint to "./tmp/model-0176.params"
+2017-11-15 23:04:22,160 Epoch[175] Validation-LmkMetric_0=0.330638
+2017-11-15 23:04:22,408 Epoch[176] Train-LmkMetric_0=0.219511
+2017-11-15 23:04:22,408 Epoch[176] Time cost=0.247
+2017-11-15 23:04:22,416 Saved checkpoint to "./tmp/model-0177.params"
+2017-11-15 23:04:22,494 Epoch[176] Validation-LmkMetric_0=0.325992
+2017-11-15 23:04:22,805 Epoch[177] Train-LmkMetric_0=0.215433
+2017-11-15 23:04:22,805 Epoch[177] Time cost=0.311
+2017-11-15 23:04:22,815 Saved checkpoint to "./tmp/model-0178.params"
+2017-11-15 23:04:22,897 Epoch[177] Validation-LmkMetric_0=0.329982
+2017-11-15 23:04:23,192 Epoch[178] Train-LmkMetric_0=0.222547
+2017-11-15 23:04:23,192 Epoch[178] Time cost=0.295
+2017-11-15 23:04:23,198 Saved checkpoint to "./tmp/model-0179.params"
+2017-11-15 23:04:23,269 Epoch[178] Validation-LmkMetric_0=0.367355
+2017-11-15 23:04:23,566 Epoch[179] Train-LmkMetric_0=0.219935
+2017-11-15 23:04:23,566 Epoch[179] Time cost=0.297
+2017-11-15 23:04:23,572 Saved checkpoint to "./tmp/model-0180.params"
+2017-11-15 23:04:23,632 Epoch[179] Validation-LmkMetric_0=0.313829
+2017-11-15 23:04:23,939 Epoch[180] Train-LmkMetric_0=0.219601
+2017-11-15 23:04:23,939 Epoch[180] Time cost=0.307
+2017-11-15 23:04:23,946 Saved checkpoint to "./tmp/model-0181.params"
+2017-11-15 23:04:24,012 Epoch[180] Validation-LmkMetric_0=0.329289
+2017-11-15 23:04:24,294 Epoch[181] Train-LmkMetric_0=0.217575
+2017-11-15 23:04:24,294 Epoch[181] Time cost=0.282
+2017-11-15 23:04:24,300 Saved checkpoint to "./tmp/model-0182.params"
+2017-11-15 23:04:24,360 Epoch[181] Validation-LmkMetric_0=0.326270
+2017-11-15 23:04:24,638 Epoch[182] Train-LmkMetric_0=0.215725
+2017-11-15 23:04:24,639 Epoch[182] Time cost=0.278
+2017-11-15 23:04:24,646 Saved checkpoint to "./tmp/model-0183.params"
+2017-11-15 23:04:24,726 Epoch[182] Validation-LmkMetric_0=0.325968
+2017-11-15 23:04:24,999 Epoch[183] Train-LmkMetric_0=0.221975
+2017-11-15 23:04:24,999 Epoch[183] Time cost=0.272
+2017-11-15 23:04:25,029 Saved checkpoint to "./tmp/model-0184.params"
+2017-11-15 23:04:25,090 Epoch[183] Validation-LmkMetric_0=0.330495
+2017-11-15 23:04:25,439 Epoch[184] Train-LmkMetric_0=0.217150
+2017-11-15 23:04:25,440 Epoch[184] Time cost=0.350
+2017-11-15 23:04:25,446 Saved checkpoint to "./tmp/model-0185.params"
+2017-11-15 23:04:25,520 Epoch[184] Validation-LmkMetric_0=0.332238
+2017-11-15 23:04:25,870 Epoch[185] Train-LmkMetric_0=0.217969
+2017-11-15 23:04:25,870 Epoch[185] Time cost=0.350
+2017-11-15 23:04:25,877 Saved checkpoint to "./tmp/model-0186.params"
+2017-11-15 23:04:25,948 Epoch[185] Validation-LmkMetric_0=0.317815
+2017-11-15 23:04:26,258 Epoch[186] Train-LmkMetric_0=0.217867
+2017-11-15 23:04:26,258 Epoch[186] Time cost=0.309
+2017-11-15 23:04:26,264 Saved checkpoint to "./tmp/model-0187.params"
+2017-11-15 23:04:26,350 Epoch[186] Validation-LmkMetric_0=0.318713
+2017-11-15 23:04:26,631 Epoch[187] Train-LmkMetric_0=0.218365
+2017-11-15 23:04:26,632 Epoch[187] Time cost=0.282
+2017-11-15 23:04:26,638 Saved checkpoint to "./tmp/model-0188.params"
+2017-11-15 23:04:26,702 Epoch[187] Validation-LmkMetric_0=0.326961
+2017-11-15 23:04:27,007 Epoch[188] Train-LmkMetric_0=0.224387
+2017-11-15 23:04:27,007 Epoch[188] Time cost=0.305
+2017-11-15 23:04:27,014 Saved checkpoint to "./tmp/model-0189.params"
+2017-11-15 23:04:27,103 Epoch[188] Validation-LmkMetric_0=0.330404
+2017-11-15 23:04:27,356 Epoch[189] Train-LmkMetric_0=0.217169
+2017-11-15 23:04:27,357 Epoch[189] Time cost=0.253
+2017-11-15 23:04:27,363 Saved checkpoint to "./tmp/model-0190.params"
+2017-11-15 23:04:27,477 Epoch[189] Validation-LmkMetric_0=0.333142
+2017-11-15 23:04:27,721 Epoch[190] Train-LmkMetric_0=0.213196
+2017-11-15 23:04:27,722 Epoch[190] Time cost=0.240
+2017-11-15 23:04:27,728 Saved checkpoint to "./tmp/model-0191.params"
+2017-11-15 23:04:27,788 Epoch[190] Validation-LmkMetric_0=0.321503
+2017-11-15 23:04:28,076 Epoch[191] Train-LmkMetric_0=0.215300
+2017-11-15 23:04:28,077 Epoch[191] Time cost=0.289
+2017-11-15 23:04:28,085 Saved checkpoint to "./tmp/model-0192.params"
+2017-11-15 23:04:28,165 Epoch[191] Validation-LmkMetric_0=0.316355
+2017-11-15 23:04:28,237 Update[3001]: Change learning rate to 1.00000e-01
+2017-11-15 23:04:28,482 Epoch[192] Train-LmkMetric_0=0.221481
+2017-11-15 23:04:28,482 Epoch[192] Time cost=0.316
+2017-11-15 23:04:28,491 Saved checkpoint to "./tmp/model-0193.params"
+2017-11-15 23:04:28,555 Epoch[192] Validation-LmkMetric_0=0.324826
+2017-11-15 23:04:28,859 Epoch[193] Train-LmkMetric_0=0.225794
+2017-11-15 23:04:28,859 Epoch[193] Time cost=0.303
+2017-11-15 23:04:28,866 Saved checkpoint to "./tmp/model-0194.params"
+2017-11-15 23:04:28,934 Epoch[193] Validation-LmkMetric_0=0.327432
+2017-11-15 23:04:29,222 Epoch[194] Train-LmkMetric_0=0.216027
+2017-11-15 23:04:29,222 Epoch[194] Time cost=0.287
+2017-11-15 23:04:29,238 Saved checkpoint to "./tmp/model-0195.params"
+2017-11-15 23:04:29,306 Epoch[194] Validation-LmkMetric_0=0.341833
+2017-11-15 23:04:29,571 Epoch[195] Train-LmkMetric_0=0.214068
+2017-11-15 23:04:29,572 Epoch[195] Time cost=0.262
+2017-11-15 23:04:29,579 Saved checkpoint to "./tmp/model-0196.params"
+2017-11-15 23:04:29,651 Epoch[195] Validation-LmkMetric_0=0.317702
+2017-11-15 23:04:29,874 Epoch[196] Train-LmkMetric_0=0.215316
+2017-11-15 23:04:29,874 Epoch[196] Time cost=0.223
+2017-11-15 23:04:29,880 Saved checkpoint to "./tmp/model-0197.params"
+2017-11-15 23:04:30,016 Epoch[196] Validation-LmkMetric_0=0.324046
+2017-11-15 23:04:30,207 Epoch[197] Train-LmkMetric_0=0.222061
+2017-11-15 23:04:30,223 Epoch[197] Time cost=0.206
+2017-11-15 23:04:30,230 Saved checkpoint to "./tmp/model-0198.params"
+2017-11-15 23:04:30,376 Epoch[197] Validation-LmkMetric_0=0.336188
+2017-11-15 23:04:30,558 Epoch[198] Train-LmkMetric_0=0.222821
+2017-11-15 23:04:30,558 Epoch[198] Time cost=0.181
+2017-11-15 23:04:30,565 Saved checkpoint to "./tmp/model-0199.params"
+2017-11-15 23:04:30,695 Epoch[198] Validation-LmkMetric_0=0.317509
+2017-11-15 23:04:30,902 Epoch[199] Train-LmkMetric_0=0.213523
+2017-11-15 23:04:30,903 Epoch[199] Time cost=0.208
+2017-11-15 23:04:30,909 Saved checkpoint to "./tmp/model-0200.params"
+2017-11-15 23:04:30,989 Epoch[199] Validation-LmkMetric_0=0.335609
+2017-11-15 23:04:31,251 Epoch[200] Train-LmkMetric_0=0.215568
+2017-11-15 23:04:31,251 Epoch[200] Time cost=0.251
+2017-11-15 23:04:31,257 Saved checkpoint to "./tmp/model-0201.params"
+2017-11-15 23:04:31,393 Epoch[200] Validation-LmkMetric_0=0.328437
+2017-11-15 23:04:31,647 Epoch[201] Train-LmkMetric_0=0.218704
+2017-11-15 23:04:31,648 Epoch[201] Time cost=0.251
+2017-11-15 23:04:31,654 Saved checkpoint to "./tmp/model-0202.params"
+2017-11-15 23:04:31,771 Epoch[201] Validation-LmkMetric_0=0.323533
+2017-11-15 23:04:32,004 Epoch[202] Train-LmkMetric_0=0.216857
+2017-11-15 23:04:32,004 Epoch[202] Time cost=0.233
+2017-11-15 23:04:32,010 Saved checkpoint to "./tmp/model-0203.params"
+2017-11-15 23:04:32,138 Epoch[202] Validation-LmkMetric_0=0.343664
+2017-11-15 23:04:32,375 Epoch[203] Train-LmkMetric_0=0.219146
+2017-11-15 23:04:32,375 Epoch[203] Time cost=0.236
+2017-11-15 23:04:32,384 Saved checkpoint to "./tmp/model-0204.params"
+2017-11-15 23:04:32,552 Epoch[203] Validation-LmkMetric_0=0.318581
+2017-11-15 23:04:32,737 Epoch[204] Train-LmkMetric_0=0.214605
+2017-11-15 23:04:32,737 Epoch[204] Time cost=0.184
+2017-11-15 23:04:32,744 Saved checkpoint to "./tmp/model-0205.params"
+2017-11-15 23:04:32,930 Epoch[204] Validation-LmkMetric_0=0.333328
+2017-11-15 23:04:33,148 Epoch[205] Train-LmkMetric_0=0.218287
+2017-11-15 23:04:33,148 Epoch[205] Time cost=0.206
+2017-11-15 23:04:33,155 Saved checkpoint to "./tmp/model-0206.params"
+2017-11-15 23:04:33,338 Epoch[205] Validation-LmkMetric_0=0.330629
+2017-11-15 23:04:33,661 Epoch[206] Train-LmkMetric_0=0.221764
+2017-11-15 23:04:33,661 Epoch[206] Time cost=0.322
+2017-11-15 23:04:33,669 Saved checkpoint to "./tmp/model-0207.params"
+2017-11-15 23:04:33,757 Epoch[206] Validation-LmkMetric_0=0.318187
+2017-11-15 23:04:34,018 Epoch[207] Train-LmkMetric_0=0.214175
+2017-11-15 23:04:34,018 Epoch[207] Time cost=0.261
+2017-11-15 23:04:34,032 Saved checkpoint to "./tmp/model-0208.params"
+2017-11-15 23:04:34,112 Epoch[207] Validation-LmkMetric_0=0.338312
+2017-11-15 23:04:34,340 Epoch[208] Train-LmkMetric_0=0.214207
+2017-11-15 23:04:34,340 Epoch[208] Time cost=0.228
+2017-11-15 23:04:34,350 Saved checkpoint to "./tmp/model-0209.params"
+2017-11-15 23:04:34,436 Epoch[208] Validation-LmkMetric_0=0.326346
+2017-11-15 23:04:34,617 Epoch[209] Train-LmkMetric_0=0.213822
+2017-11-15 23:04:34,617 Epoch[209] Time cost=0.181
+2017-11-15 23:04:34,624 Saved checkpoint to "./tmp/model-0210.params"
+2017-11-15 23:04:34,707 Epoch[209] Validation-LmkMetric_0=0.332492
+2017-11-15 23:04:35,012 Epoch[210] Train-LmkMetric_0=0.220448
+2017-11-15 23:04:35,013 Epoch[210] Time cost=0.288
+2017-11-15 23:04:35,019 Saved checkpoint to "./tmp/model-0211.params"
+2017-11-15 23:04:35,092 Epoch[210] Validation-LmkMetric_0=0.336864
+2017-11-15 23:04:35,400 Epoch[211] Train-LmkMetric_0=0.222932
+2017-11-15 23:04:35,400 Epoch[211] Time cost=0.308
+2017-11-15 23:04:35,408 Saved checkpoint to "./tmp/model-0212.params"
+2017-11-15 23:04:35,541 Epoch[211] Validation-LmkMetric_0=0.311524
+2017-11-15 23:04:35,761 Epoch[212] Train-LmkMetric_0=0.211844
+2017-11-15 23:04:35,762 Epoch[212] Time cost=0.217
+2017-11-15 23:04:35,771 Saved checkpoint to "./tmp/model-0213.params"
+2017-11-15 23:04:35,917 Epoch[212] Validation-LmkMetric_0=0.342858
+2017-11-15 23:04:36,132 Epoch[213] Train-LmkMetric_0=0.214496
+2017-11-15 23:04:36,132 Epoch[213] Time cost=0.209
+2017-11-15 23:04:36,138 Saved checkpoint to "./tmp/model-0214.params"
+2017-11-15 23:04:36,257 Epoch[213] Validation-LmkMetric_0=0.333866
+2017-11-15 23:04:36,475 Epoch[214] Train-LmkMetric_0=0.215110
+2017-11-15 23:04:36,475 Epoch[214] Time cost=0.218
+2017-11-15 23:04:36,481 Saved checkpoint to "./tmp/model-0215.params"
+2017-11-15 23:04:36,544 Epoch[214] Validation-LmkMetric_0=0.337197
+2017-11-15 23:04:36,840 Epoch[215] Train-LmkMetric_0=0.220540
+2017-11-15 23:04:36,841 Epoch[215] Time cost=0.297
+2017-11-15 23:04:36,846 Saved checkpoint to "./tmp/model-0216.params"
+2017-11-15 23:04:36,967 Epoch[215] Validation-LmkMetric_0=0.345964
+2017-11-15 23:04:37,210 Epoch[216] Train-LmkMetric_0=0.222253
+2017-11-15 23:04:37,210 Epoch[216] Time cost=0.240
+2017-11-15 23:04:37,216 Saved checkpoint to "./tmp/model-0217.params"
+2017-11-15 23:04:37,306 Epoch[216] Validation-LmkMetric_0=0.311634
+2017-11-15 23:04:37,573 Epoch[217] Train-LmkMetric_0=0.213111
+2017-11-15 23:04:37,573 Epoch[217] Time cost=0.263
+2017-11-15 23:04:37,579 Saved checkpoint to "./tmp/model-0218.params"
+2017-11-15 23:04:37,703 Epoch[217] Validation-LmkMetric_0=0.332743
+2017-11-15 23:04:37,951 Epoch[218] Train-LmkMetric_0=0.215890
+2017-11-15 23:04:37,953 Epoch[218] Time cost=0.249
+2017-11-15 23:04:37,961 Saved checkpoint to "./tmp/model-0219.params"
+2017-11-15 23:04:38,066 Epoch[218] Validation-LmkMetric_0=0.338260
+2017-11-15 23:04:38,371 Epoch[219] Train-LmkMetric_0=0.216962
+2017-11-15 23:04:38,371 Epoch[219] Time cost=0.304
+2017-11-15 23:04:38,378 Saved checkpoint to "./tmp/model-0220.params"
+2017-11-15 23:04:38,525 Epoch[219] Validation-LmkMetric_0=0.324603
+2017-11-15 23:04:38,767 Epoch[220] Train-LmkMetric_0=0.217448
+2017-11-15 23:04:38,767 Epoch[220] Time cost=0.226
+2017-11-15 23:04:38,776 Saved checkpoint to "./tmp/model-0221.params"
+2017-11-15 23:04:38,922 Epoch[220] Validation-LmkMetric_0=0.337731
+2017-11-15 23:04:39,127 Epoch[221] Train-LmkMetric_0=0.220842
+2017-11-15 23:04:39,127 Epoch[221] Time cost=0.206
+2017-11-15 23:04:39,136 Saved checkpoint to "./tmp/model-0222.params"
+2017-11-15 23:04:39,195 Epoch[221] Validation-LmkMetric_0=0.313479
+2017-11-15 23:04:39,487 Epoch[222] Train-LmkMetric_0=0.213343
+2017-11-15 23:04:39,487 Epoch[222] Time cost=0.291
+2017-11-15 23:04:39,496 Saved checkpoint to "./tmp/model-0223.params"
+2017-11-15 23:04:39,560 Epoch[222] Validation-LmkMetric_0=0.334317
+2017-11-15 23:04:39,864 Epoch[223] Train-LmkMetric_0=0.217793
+2017-11-15 23:04:39,864 Epoch[223] Time cost=0.303
+2017-11-15 23:04:39,873 Saved checkpoint to "./tmp/model-0224.params"
+2017-11-15 23:04:39,945 Epoch[223] Validation-LmkMetric_0=0.338589
+2017-11-15 23:04:40,058 Update[3501]: Change learning rate to 1.00000e-01
+2017-11-15 23:04:40,232 Epoch[224] Train-LmkMetric_0=0.219193
+2017-11-15 23:04:40,232 Epoch[224] Time cost=0.287
+2017-11-15 23:04:40,240 Saved checkpoint to "./tmp/model-0225.params"
+2017-11-15 23:04:40,318 Epoch[224] Validation-LmkMetric_0=0.318501
+2017-11-15 23:04:40,599 Epoch[225] Train-LmkMetric_0=0.217760
+2017-11-15 23:04:40,600 Epoch[225] Time cost=0.281
+2017-11-15 23:04:40,609 Saved checkpoint to "./tmp/model-0226.params"
+2017-11-15 23:04:40,692 Epoch[225] Validation-LmkMetric_0=0.332776
+2017-11-15 23:04:40,987 Epoch[226] Train-LmkMetric_0=0.218127
+2017-11-15 23:04:40,987 Epoch[226] Time cost=0.296
+2017-11-15 23:04:40,996 Saved checkpoint to "./tmp/model-0227.params"
+2017-11-15 23:04:41,060 Epoch[226] Validation-LmkMetric_0=0.317099
+2017-11-15 23:04:41,323 Epoch[227] Train-LmkMetric_0=0.214350
+2017-11-15 23:04:41,323 Epoch[227] Time cost=0.263
+2017-11-15 23:04:41,332 Saved checkpoint to "./tmp/model-0228.params"
+2017-11-15 23:04:41,404 Epoch[227] Validation-LmkMetric_0=0.333038
+2017-11-15 23:04:41,729 Epoch[228] Train-LmkMetric_0=0.219168
+2017-11-15 23:04:41,729 Epoch[228] Time cost=0.315
+2017-11-15 23:04:41,738 Saved checkpoint to "./tmp/model-0229.params"
+2017-11-15 23:04:41,798 Epoch[228] Validation-LmkMetric_0=0.331955
+2017-11-15 23:04:42,079 Epoch[229] Train-LmkMetric_0=0.223265
+2017-11-15 23:04:42,079 Epoch[229] Time cost=0.280
+2017-11-15 23:04:42,088 Saved checkpoint to "./tmp/model-0230.params"
+2017-11-15 23:04:42,151 Epoch[229] Validation-LmkMetric_0=0.328729
+2017-11-15 23:04:42,440 Epoch[230] Train-LmkMetric_0=0.215603
+2017-11-15 23:04:42,440 Epoch[230] Time cost=0.290
+2017-11-15 23:04:42,451 Saved checkpoint to "./tmp/model-0231.params"
+2017-11-15 23:04:42,520 Epoch[230] Validation-LmkMetric_0=0.333404
+2017-11-15 23:04:42,798 Epoch[231] Train-LmkMetric_0=0.214331
+2017-11-15 23:04:42,798 Epoch[231] Time cost=0.277
+2017-11-15 23:04:42,809 Saved checkpoint to "./tmp/model-0232.params"
+2017-11-15 23:04:42,884 Epoch[231] Validation-LmkMetric_0=0.323509
+2017-11-15 23:04:43,142 Epoch[232] Train-LmkMetric_0=0.213782
+2017-11-15 23:04:43,142 Epoch[232] Time cost=0.258
+2017-11-15 23:04:43,151 Saved checkpoint to "./tmp/model-0233.params"
+2017-11-15 23:04:43,228 Epoch[232] Validation-LmkMetric_0=0.329868
+2017-11-15 23:04:43,478 Epoch[233] Train-LmkMetric_0=0.220440
+2017-11-15 23:04:43,479 Epoch[233] Time cost=0.250
+2017-11-15 23:04:43,493 Saved checkpoint to "./tmp/model-0234.params"
+2017-11-15 23:04:43,594 Epoch[233] Validation-LmkMetric_0=0.335666
+2017-11-15 23:04:43,833 Epoch[234] Train-LmkMetric_0=0.222562
+2017-11-15 23:04:43,833 Epoch[234] Time cost=0.239
+2017-11-15 23:04:43,840 Saved checkpoint to "./tmp/model-0235.params"
+2017-11-15 23:04:43,976 Epoch[234] Validation-LmkMetric_0=0.323258
+2017-11-15 23:04:44,162 Epoch[235] Train-LmkMetric_0=0.214314
+2017-11-15 23:04:44,162 Epoch[235] Time cost=0.186
+2017-11-15 23:04:44,172 Saved checkpoint to "./tmp/model-0236.params"
+2017-11-15 23:04:44,360 Epoch[235] Validation-LmkMetric_0=0.333718
+2017-11-15 23:04:44,550 Epoch[236] Train-LmkMetric_0=0.213317
+2017-11-15 23:04:44,550 Epoch[236] Time cost=0.189
+2017-11-15 23:04:44,556 Saved checkpoint to "./tmp/model-0237.params"
+2017-11-15 23:04:44,727 Epoch[236] Validation-LmkMetric_0=0.328684
+2017-11-15 23:04:44,920 Epoch[237] Train-LmkMetric_0=0.214703
+2017-11-15 23:04:44,920 Epoch[237] Time cost=0.192
+2017-11-15 23:04:44,926 Saved checkpoint to "./tmp/model-0238.params"
+2017-11-15 23:04:45,091 Epoch[237] Validation-LmkMetric_0=0.346526
+2017-11-15 23:04:45,294 Epoch[238] Train-LmkMetric_0=0.220796
+2017-11-15 23:04:45,294 Epoch[238] Time cost=0.191
+2017-11-15 23:04:45,300 Saved checkpoint to "./tmp/model-0239.params"
+2017-11-15 23:04:45,452 Epoch[238] Validation-LmkMetric_0=0.336975
+2017-11-15 23:04:45,665 Epoch[239] Train-LmkMetric_0=0.224058
+2017-11-15 23:04:45,665 Epoch[239] Time cost=0.213
+2017-11-15 23:04:45,671 Saved checkpoint to "./tmp/model-0240.params"
+2017-11-15 23:04:45,813 Epoch[239] Validation-LmkMetric_0=0.315779
+2017-11-15 23:04:46,030 Epoch[240] Train-LmkMetric_0=0.215041
+2017-11-15 23:04:46,030 Epoch[240] Time cost=0.217
+2017-11-15 23:04:46,036 Saved checkpoint to "./tmp/model-0241.params"
+2017-11-15 23:04:46,221 Epoch[240] Validation-LmkMetric_0=0.330708
+2017-11-15 23:04:46,412 Epoch[241] Train-LmkMetric_0=0.214527
+2017-11-15 23:04:46,412 Epoch[241] Time cost=0.190
+2017-11-15 23:04:46,418 Saved checkpoint to "./tmp/model-0242.params"
+2017-11-15 23:04:46,540 Epoch[241] Validation-LmkMetric_0=0.327611
+2017-11-15 23:04:46,780 Epoch[242] Train-LmkMetric_0=0.217897
+2017-11-15 23:04:46,781 Epoch[242] Time cost=0.233
+2017-11-15 23:04:46,787 Saved checkpoint to "./tmp/model-0243.params"
+2017-11-15 23:04:46,909 Epoch[242] Validation-LmkMetric_0=0.328958
+2017-11-15 23:04:47,151 Epoch[243] Train-LmkMetric_0=0.218933
+2017-11-15 23:04:47,151 Epoch[243] Time cost=0.239
+2017-11-15 23:04:47,158 Saved checkpoint to "./tmp/model-0244.params"
+2017-11-15 23:04:47,231 Epoch[243] Validation-LmkMetric_0=0.346438
+2017-11-15 23:04:47,538 Epoch[244] Train-LmkMetric_0=0.221962
+2017-11-15 23:04:47,539 Epoch[244] Time cost=0.307
+2017-11-15 23:04:47,545 Saved checkpoint to "./tmp/model-0245.params"
+2017-11-15 23:04:47,610 Epoch[244] Validation-LmkMetric_0=0.311541
+2017-11-15 23:04:47,886 Epoch[245] Train-LmkMetric_0=0.213142
+2017-11-15 23:04:47,886 Epoch[245] Time cost=0.275
+2017-11-15 23:04:47,893 Saved checkpoint to "./tmp/model-0246.params"
+2017-11-15 23:04:47,969 Epoch[245] Validation-LmkMetric_0=0.330696
+2017-11-15 23:04:48,262 Epoch[246] Train-LmkMetric_0=0.217008
+2017-11-15 23:04:48,263 Epoch[246] Time cost=0.293
+2017-11-15 23:04:48,269 Saved checkpoint to "./tmp/model-0247.params"
+2017-11-15 23:04:48,339 Epoch[246] Validation-LmkMetric_0=0.336184
+2017-11-15 23:04:48,627 Epoch[247] Train-LmkMetric_0=0.220520
+2017-11-15 23:04:48,628 Epoch[247] Time cost=0.288
+2017-11-15 23:04:48,634 Saved checkpoint to "./tmp/model-0248.params"
+2017-11-15 23:04:48,705 Epoch[247] Validation-LmkMetric_0=0.320409
+2017-11-15 23:04:49,012 Epoch[248] Train-LmkMetric_0=0.214603
+2017-11-15 23:04:49,013 Epoch[248] Time cost=0.307
+2017-11-15 23:04:49,019 Saved checkpoint to "./tmp/model-0249.params"
+2017-11-15 23:04:49,106 Epoch[248] Validation-LmkMetric_0=0.316616
+2017-11-15 23:04:49,404 Epoch[249] Train-LmkMetric_0=0.220821
+2017-11-15 23:04:49,405 Epoch[249] Time cost=0.298
+2017-11-15 23:04:49,411 Saved checkpoint to "./tmp/model-0250.params"
+2017-11-15 23:04:49,505 Epoch[249] Validation-LmkMetric_0=0.345070
+2017-11-15 23:04:49,758 Epoch[250] Train-LmkMetric_0=0.221083
+2017-11-15 23:04:49,758 Epoch[250] Time cost=0.253
+2017-11-15 23:04:49,764 Saved checkpoint to "./tmp/model-0251.params"
+2017-11-15 23:04:49,850 Epoch[250] Validation-LmkMetric_0=0.360317
+2017-11-15 23:04:50,109 Epoch[251] Train-LmkMetric_0=0.225892
+2017-11-15 23:04:50,110 Epoch[251] Time cost=0.256
+2017-11-15 23:04:50,116 Saved checkpoint to "./tmp/model-0252.params"
+2017-11-15 23:04:50,210 Epoch[251] Validation-LmkMetric_0=0.323549
+2017-11-15 23:04:50,489 Epoch[252] Train-LmkMetric_0=0.221867
+2017-11-15 23:04:50,489 Epoch[252] Time cost=0.277
+2017-11-15 23:04:50,497 Saved checkpoint to "./tmp/model-0253.params"
+2017-11-15 23:04:50,599 Epoch[252] Validation-LmkMetric_0=0.325436
+2017-11-15 23:04:50,858 Epoch[253] Train-LmkMetric_0=0.213533
+2017-11-15 23:04:50,858 Epoch[253] Time cost=0.258
+2017-11-15 23:04:50,866 Saved checkpoint to "./tmp/model-0254.params"
+2017-11-15 23:04:50,929 Epoch[253] Validation-LmkMetric_0=0.345958
+2017-11-15 23:04:51,231 Epoch[254] Train-LmkMetric_0=0.213296
+2017-11-15 23:04:51,231 Epoch[254] Time cost=0.302
+2017-11-15 23:04:51,239 Saved checkpoint to "./tmp/model-0255.params"
+2017-11-15 23:04:51,296 Epoch[254] Validation-LmkMetric_0=0.320357
+2017-11-15 23:04:51,587 Epoch[255] Train-LmkMetric_0=0.213428
+2017-11-15 23:04:51,588 Epoch[255] Time cost=0.291
+2017-11-15 23:04:51,595 Saved checkpoint to "./tmp/model-0256.params"
+2017-11-15 23:04:51,681 Epoch[255] Validation-LmkMetric_0=0.319467
+2017-11-15 23:04:51,808 Update[4001]: Change learning rate to 1.00000e-01
+2017-11-15 23:04:51,991 Epoch[256] Train-LmkMetric_0=0.220494
+2017-11-15 23:04:51,992 Epoch[256] Time cost=0.309
+2017-11-15 23:04:51,999 Saved checkpoint to "./tmp/model-0257.params"
+2017-11-15 23:04:52,067 Epoch[256] Validation-LmkMetric_0=0.342647
+2017-11-15 23:04:52,370 Epoch[257] Train-LmkMetric_0=0.223054
+2017-11-15 23:04:52,371 Epoch[257] Time cost=0.303
+2017-11-15 23:04:52,380 Saved checkpoint to "./tmp/model-0258.params"
+2017-11-15 23:04:52,484 Epoch[257] Validation-LmkMetric_0=0.315557
+2017-11-15 23:04:52,743 Epoch[258] Train-LmkMetric_0=0.213350
+2017-11-15 23:04:52,744 Epoch[258] Time cost=0.259
+2017-11-15 23:04:52,753 Saved checkpoint to "./tmp/model-0259.params"
+2017-11-15 23:04:52,810 Epoch[258] Validation-LmkMetric_0=0.346213
+2017-11-15 23:04:53,147 Epoch[259] Train-LmkMetric_0=0.218046
+2017-11-15 23:04:53,147 Epoch[259] Time cost=0.336
+2017-11-15 23:04:53,153 Saved checkpoint to "./tmp/model-0260.params"
+2017-11-15 23:04:53,238 Epoch[259] Validation-LmkMetric_0=0.324168
+2017-11-15 23:04:53,542 Epoch[260] Train-LmkMetric_0=0.220897
+2017-11-15 23:04:53,542 Epoch[260] Time cost=0.289
+2017-11-15 23:04:53,549 Saved checkpoint to "./tmp/model-0261.params"
+2017-11-15 23:04:53,618 Epoch[260] Validation-LmkMetric_0=0.349185
+2017-11-15 23:04:53,903 Epoch[261] Train-LmkMetric_0=0.223242
+2017-11-15 23:04:53,903 Epoch[261] Time cost=0.285
+2017-11-15 23:04:53,909 Saved checkpoint to "./tmp/model-0262.params"
+2017-11-15 23:04:53,975 Epoch[261] Validation-LmkMetric_0=0.350547
+2017-11-15 23:04:54,291 Epoch[262] Train-LmkMetric_0=0.220636
+2017-11-15 23:04:54,291 Epoch[262] Time cost=0.316
+2017-11-15 23:04:54,301 Saved checkpoint to "./tmp/model-0263.params"
+2017-11-15 23:04:54,362 Epoch[262] Validation-LmkMetric_0=0.312067
+2017-11-15 23:04:54,645 Epoch[263] Train-LmkMetric_0=0.212130
+2017-11-15 23:04:54,645 Epoch[263] Time cost=0.282
+2017-11-15 23:04:54,651 Saved checkpoint to "./tmp/model-0264.params"
+2017-11-15 23:04:54,720 Epoch[263] Validation-LmkMetric_0=0.331966
+2017-11-15 23:04:55,021 Epoch[264] Train-LmkMetric_0=0.216035
+2017-11-15 23:04:55,021 Epoch[264] Time cost=0.301
+2017-11-15 23:04:55,029 Saved checkpoint to "./tmp/model-0265.params"
+2017-11-15 23:04:55,107 Epoch[264] Validation-LmkMetric_0=0.341155
+2017-11-15 23:04:55,390 Epoch[265] Train-LmkMetric_0=0.217755
+2017-11-15 23:04:55,390 Epoch[265] Time cost=0.283
+2017-11-15 23:04:55,399 Saved checkpoint to "./tmp/model-0266.params"
+2017-11-15 23:04:55,452 Epoch[265] Validation-LmkMetric_0=0.319825
+2017-11-15 23:04:55,684 Epoch[266] Train-LmkMetric_0=0.212734
+2017-11-15 23:04:55,684 Epoch[266] Time cost=0.232
+2017-11-15 23:04:55,706 Saved checkpoint to "./tmp/model-0267.params"
+2017-11-15 23:04:55,801 Epoch[266] Validation-LmkMetric_0=0.344442
+2017-11-15 23:04:56,038 Epoch[267] Train-LmkMetric_0=0.215322
+2017-11-15 23:04:56,038 Epoch[267] Time cost=0.236
+2017-11-15 23:04:56,065 Saved checkpoint to "./tmp/model-0268.params"
+2017-11-15 23:04:56,152 Epoch[267] Validation-LmkMetric_0=0.325545
+2017-11-15 23:04:56,317 Epoch[268] Train-LmkMetric_0=0.212503
+2017-11-15 23:04:56,318 Epoch[268] Time cost=0.165
+2017-11-15 23:04:56,326 Saved checkpoint to "./tmp/model-0269.params"
+2017-11-15 23:04:56,474 Epoch[268] Validation-LmkMetric_0=0.323022
+2017-11-15 23:04:56,659 Epoch[269] Train-LmkMetric_0=0.218276
+2017-11-15 23:04:56,659 Epoch[269] Time cost=0.184
+2017-11-15 23:04:56,667 Saved checkpoint to "./tmp/model-0270.params"
+2017-11-15 23:04:56,807 Epoch[269] Validation-LmkMetric_0=0.344205
+2017-11-15 23:04:57,026 Epoch[270] Train-LmkMetric_0=0.221206
+2017-11-15 23:04:57,027 Epoch[270] Time cost=0.219
+2017-11-15 23:04:57,034 Saved checkpoint to "./tmp/model-0271.params"
+2017-11-15 23:04:57,122 Epoch[270] Validation-LmkMetric_0=0.307907
+2017-11-15 23:04:57,392 Epoch[271] Train-LmkMetric_0=0.212303
+2017-11-15 23:04:57,393 Epoch[271] Time cost=0.269
+2017-11-15 23:04:57,400 Saved checkpoint to "./tmp/model-0272.params"
+2017-11-15 23:04:57,465 Epoch[271] Validation-LmkMetric_0=0.345652
+2017-11-15 23:04:57,761 Epoch[272] Train-LmkMetric_0=0.214475
+2017-11-15 23:04:57,761 Epoch[272] Time cost=0.295
+2017-11-15 23:04:57,769 Saved checkpoint to "./tmp/model-0273.params"
+2017-11-15 23:04:57,825 Epoch[272] Validation-LmkMetric_0=0.335345
+2017-11-15 23:04:58,068 Epoch[273] Train-LmkMetric_0=0.212822
+2017-11-15 23:04:58,068 Epoch[273] Time cost=0.242
+2017-11-15 23:04:58,076 Saved checkpoint to "./tmp/model-0274.params"
+2017-11-15 23:04:58,134 Epoch[273] Validation-LmkMetric_0=0.323740
+2017-11-15 23:04:58,339 Epoch[274] Train-LmkMetric_0=0.217682
+2017-11-15 23:04:58,340 Epoch[274] Time cost=0.206
+2017-11-15 23:04:58,381 Saved checkpoint to "./tmp/model-0275.params"
+2017-11-15 23:04:58,509 Epoch[274] Validation-LmkMetric_0=0.347413
+2017-11-15 23:04:58,766 Epoch[275] Train-LmkMetric_0=0.218778
+2017-11-15 23:04:58,766 Epoch[275] Time cost=0.257
+2017-11-15 23:04:58,807 Saved checkpoint to "./tmp/model-0276.params"
+2017-11-15 23:04:58,907 Epoch[275] Validation-LmkMetric_0=0.319764
+2017-11-15 23:04:59,135 Epoch[276] Train-LmkMetric_0=0.210343
+2017-11-15 23:04:59,136 Epoch[276] Time cost=0.228
+2017-11-15 23:04:59,162 Saved checkpoint to "./tmp/model-0277.params"
+2017-11-15 23:04:59,281 Epoch[276] Validation-LmkMetric_0=0.336362
+2017-11-15 23:04:59,513 Epoch[277] Train-LmkMetric_0=0.213370
+2017-11-15 23:04:59,513 Epoch[277] Time cost=0.230
+2017-11-15 23:04:59,528 Saved checkpoint to "./tmp/model-0278.params"
+2017-11-15 23:04:59,668 Epoch[277] Validation-LmkMetric_0=0.345724
+2017-11-15 23:04:59,936 Epoch[278] Train-LmkMetric_0=0.213531
+2017-11-15 23:04:59,957 Epoch[278] Time cost=0.289
+2017-11-15 23:04:59,978 Saved checkpoint to "./tmp/model-0279.params"
+2017-11-15 23:05:00,039 Epoch[278] Validation-LmkMetric_0=0.329517
+2017-11-15 23:05:00,318 Epoch[279] Train-LmkMetric_0=0.217316
+2017-11-15 23:05:00,318 Epoch[279] Time cost=0.279
+2017-11-15 23:05:00,327 Saved checkpoint to "./tmp/model-0280.params"
+2017-11-15 23:05:00,415 Epoch[279] Validation-LmkMetric_0=0.346303
+2017-11-15 23:05:00,723 Epoch[280] Train-LmkMetric_0=0.216172
+2017-11-15 23:05:00,723 Epoch[280] Time cost=0.308
+2017-11-15 23:05:00,729 Saved checkpoint to "./tmp/model-0281.params"
+2017-11-15 23:05:00,792 Epoch[280] Validation-LmkMetric_0=0.319484
+2017-11-15 23:05:01,022 Epoch[281] Train-LmkMetric_0=0.210021
+2017-11-15 23:05:01,022 Epoch[281] Time cost=0.230
+2017-11-15 23:05:01,030 Saved checkpoint to "./tmp/model-0282.params"
+2017-11-15 23:05:01,157 Epoch[281] Validation-LmkMetric_0=0.331852
+2017-11-15 23:05:01,474 Epoch[282] Train-LmkMetric_0=0.214334
+2017-11-15 23:05:01,474 Epoch[282] Time cost=0.317
+2017-11-15 23:05:01,486 Saved checkpoint to "./tmp/model-0283.params"
+2017-11-15 23:05:01,551 Epoch[282] Validation-LmkMetric_0=0.352709
+2017-11-15 23:05:01,870 Epoch[283] Train-LmkMetric_0=0.215640
+2017-11-15 23:05:01,870 Epoch[283] Time cost=0.318
+2017-11-15 23:05:01,876 Saved checkpoint to "./tmp/model-0284.params"
+2017-11-15 23:05:01,968 Epoch[283] Validation-LmkMetric_0=0.328096
+2017-11-15 23:05:02,286 Epoch[284] Train-LmkMetric_0=0.214386
+2017-11-15 23:05:02,286 Epoch[284] Time cost=0.318
+2017-11-15 23:05:02,292 Saved checkpoint to "./tmp/model-0285.params"
+2017-11-15 23:05:02,364 Epoch[284] Validation-LmkMetric_0=0.341120
+2017-11-15 23:05:02,666 Epoch[285] Train-LmkMetric_0=0.214860
+2017-11-15 23:05:02,666 Epoch[285] Time cost=0.302
+2017-11-15 23:05:02,674 Saved checkpoint to "./tmp/model-0286.params"
+2017-11-15 23:05:02,746 Epoch[285] Validation-LmkMetric_0=0.330558
+2017-11-15 23:05:03,039 Epoch[286] Train-LmkMetric_0=0.212353
+2017-11-15 23:05:03,040 Epoch[286] Time cost=0.293
+2017-11-15 23:05:03,051 Saved checkpoint to "./tmp/model-0287.params"
+2017-11-15 23:05:03,124 Epoch[286] Validation-LmkMetric_0=0.325137
+2017-11-15 23:05:03,442 Epoch[287] Train-LmkMetric_0=0.217766
+2017-11-15 23:05:03,442 Epoch[287] Time cost=0.318
+2017-11-15 23:05:03,452 Saved checkpoint to "./tmp/model-0288.params"
+2017-11-15 23:05:03,516 Epoch[287] Validation-LmkMetric_0=0.356272
+2017-11-15 23:05:03,641 Update[4501]: Change learning rate to 1.00000e-01
+2017-11-15 23:05:03,806 Epoch[288] Train-LmkMetric_0=0.218117
+2017-11-15 23:05:03,807 Epoch[288] Time cost=0.290
+2017-11-15 23:05:03,813 Saved checkpoint to "./tmp/model-0289.params"
+2017-11-15 23:05:03,887 Epoch[288] Validation-LmkMetric_0=0.317769
+2017-11-15 23:05:04,186 Epoch[289] Train-LmkMetric_0=0.211821
+2017-11-15 23:05:04,187 Epoch[289] Time cost=0.299
+2017-11-15 23:05:04,199 Saved checkpoint to "./tmp/model-0290.params"
+2017-11-15 23:05:04,283 Epoch[289] Validation-LmkMetric_0=0.332430
+2017-11-15 23:05:04,589 Epoch[290] Train-LmkMetric_0=0.212970
+2017-11-15 23:05:04,590 Epoch[290] Time cost=0.306
+2017-11-15 23:05:04,596 Saved checkpoint to "./tmp/model-0291.params"
+2017-11-15 23:05:04,681 Epoch[290] Validation-LmkMetric_0=0.327556
+2017-11-15 23:05:04,945 Epoch[291] Train-LmkMetric_0=0.212146
+2017-11-15 23:05:04,946 Epoch[291] Time cost=0.264
+2017-11-15 23:05:04,953 Saved checkpoint to "./tmp/model-0292.params"
+2017-11-15 23:05:05,023 Epoch[291] Validation-LmkMetric_0=0.332333
+2017-11-15 23:05:05,310 Epoch[292] Train-LmkMetric_0=0.217650
+2017-11-15 23:05:05,311 Epoch[292] Time cost=0.287
+2017-11-15 23:05:05,318 Saved checkpoint to "./tmp/model-0293.params"
+2017-11-15 23:05:05,420 Epoch[292] Validation-LmkMetric_0=0.360438
+2017-11-15 23:05:05,698 Epoch[293] Train-LmkMetric_0=0.218613
+2017-11-15 23:05:05,698 Epoch[293] Time cost=0.276
+2017-11-15 23:05:05,706 Saved checkpoint to "./tmp/model-0294.params"
+2017-11-15 23:05:05,824 Epoch[293] Validation-LmkMetric_0=0.314768
+2017-11-15 23:05:06,075 Epoch[294] Train-LmkMetric_0=0.209201
+2017-11-15 23:05:06,076 Epoch[294] Time cost=0.251
+2017-11-15 23:05:06,083 Saved checkpoint to "./tmp/model-0295.params"
+2017-11-15 23:05:06,186 Epoch[294] Validation-LmkMetric_0=0.327206
+2017-11-15 23:05:06,452 Epoch[295] Train-LmkMetric_0=0.211937
+2017-11-15 23:05:06,452 Epoch[295] Time cost=0.243
+2017-11-15 23:05:06,459 Saved checkpoint to "./tmp/model-0296.params"
+2017-11-15 23:05:06,529 Epoch[295] Validation-LmkMetric_0=0.344070
+2017-11-15 23:05:06,824 Epoch[296] Train-LmkMetric_0=0.213039
+2017-11-15 23:05:06,825 Epoch[296] Time cost=0.295
+2017-11-15 23:05:06,832 Saved checkpoint to "./tmp/model-0297.params"
+2017-11-15 23:05:06,940 Epoch[296] Validation-LmkMetric_0=0.321617
+2017-11-15 23:05:07,227 Epoch[297] Train-LmkMetric_0=0.218501
+2017-11-15 23:05:07,227 Epoch[297] Time cost=0.286
+2017-11-15 23:05:07,234 Saved checkpoint to "./tmp/model-0298.params"
+2017-11-15 23:05:07,367 Epoch[297] Validation-LmkMetric_0=0.363399
+2017-11-15 23:05:07,605 Epoch[298] Train-LmkMetric_0=0.217784
+2017-11-15 23:05:07,605 Epoch[298] Time cost=0.237
+2017-11-15 23:05:07,613 Saved checkpoint to "./tmp/model-0299.params"
+2017-11-15 23:05:07,749 Epoch[298] Validation-LmkMetric_0=0.320409
+2017-11-15 23:05:07,963 Epoch[299] Train-LmkMetric_0=0.209154
+2017-11-15 23:05:07,963 Epoch[299] Time cost=0.212
+2017-11-15 23:05:07,969 Saved checkpoint to "./tmp/model-0300.params"
+2017-11-15 23:05:08,141 Epoch[299] Validation-LmkMetric_0=0.322009
+2017-11-15 23:05:08,330 Epoch[300] Train-LmkMetric_0=0.213778
+2017-11-15 23:05:08,331 Epoch[300] Time cost=0.181
+2017-11-15 23:05:08,338 Saved checkpoint to "./tmp/model-0301.params"
+2017-11-15 23:05:08,510 Epoch[300] Validation-LmkMetric_0=0.345889
+2017-11-15 23:05:08,723 Epoch[301] Train-LmkMetric_0=0.213026
+2017-11-15 23:05:08,723 Epoch[301] Time cost=0.212
+2017-11-15 23:05:08,734 Saved checkpoint to "./tmp/model-0302.params"
+2017-11-15 23:05:08,916 Epoch[301] Validation-LmkMetric_0=0.335534
+2017-11-15 23:05:09,087 Epoch[302] Train-LmkMetric_0=0.216424
+2017-11-15 23:05:09,088 Epoch[302] Time cost=0.170
+2017-11-15 23:05:09,094 Saved checkpoint to "./tmp/model-0303.params"
+2017-11-15 23:05:09,227 Epoch[302] Validation-LmkMetric_0=0.344956
+2017-11-15 23:05:09,450 Epoch[303] Train-LmkMetric_0=0.214477
+2017-11-15 23:05:09,451 Epoch[303] Time cost=0.221
+2017-11-15 23:05:09,457 Saved checkpoint to "./tmp/model-0304.params"
+2017-11-15 23:05:09,591 Epoch[303] Validation-LmkMetric_0=0.327652
+2017-11-15 23:05:09,812 Epoch[304] Train-LmkMetric_0=0.211698
+2017-11-15 23:05:09,812 Epoch[304] Time cost=0.220
+2017-11-15 23:05:09,830 Saved checkpoint to "./tmp/model-0305.params"
+2017-11-15 23:05:09,927 Epoch[304] Validation-LmkMetric_0=0.314301
+2017-11-15 23:05:10,195 Epoch[305] Train-LmkMetric_0=0.214714
+2017-11-15 23:05:10,195 Epoch[305] Time cost=0.268
+2017-11-15 23:05:10,201 Saved checkpoint to "./tmp/model-0306.params"
+2017-11-15 23:05:10,274 Epoch[305] Validation-LmkMetric_0=0.354970
+2017-11-15 23:05:10,576 Epoch[306] Train-LmkMetric_0=0.215464
+2017-11-15 23:05:10,576 Epoch[306] Time cost=0.302
+2017-11-15 23:05:10,584 Saved checkpoint to "./tmp/model-0307.params"
+2017-11-15 23:05:10,680 Epoch[306] Validation-LmkMetric_0=0.326459
+2017-11-15 23:05:10,937 Epoch[307] Train-LmkMetric_0=0.211507
+2017-11-15 23:05:10,937 Epoch[307] Time cost=0.256
+2017-11-15 23:05:10,945 Saved checkpoint to "./tmp/model-0308.params"
+2017-11-15 23:05:11,026 Epoch[307] Validation-LmkMetric_0=0.345079
+2017-11-15 23:05:11,316 Epoch[308] Train-LmkMetric_0=0.214125
+2017-11-15 23:05:11,317 Epoch[308] Time cost=0.290
+2017-11-15 23:05:11,327 Saved checkpoint to "./tmp/model-0309.params"
+2017-11-15 23:05:11,397 Epoch[308] Validation-LmkMetric_0=0.326980
+2017-11-15 23:05:11,680 Epoch[309] Train-LmkMetric_0=0.211805
+2017-11-15 23:05:11,681 Epoch[309] Time cost=0.283
+2017-11-15 23:05:11,689 Saved checkpoint to "./tmp/model-0310.params"
+2017-11-15 23:05:11,766 Epoch[309] Validation-LmkMetric_0=0.322007
+2017-11-15 23:05:12,071 Epoch[310] Train-LmkMetric_0=0.216307
+2017-11-15 23:05:12,071 Epoch[310] Time cost=0.305
+2017-11-15 23:05:12,077 Saved checkpoint to "./tmp/model-0311.params"
+2017-11-15 23:05:12,151 Epoch[310] Validation-LmkMetric_0=0.353319
+2017-11-15 23:05:12,447 Epoch[311] Train-LmkMetric_0=0.217525
+2017-11-15 23:05:12,447 Epoch[311] Time cost=0.296
+2017-11-15 23:05:12,456 Saved checkpoint to "./tmp/model-0312.params"
+2017-11-15 23:05:12,534 Epoch[311] Validation-LmkMetric_0=0.321529
+2017-11-15 23:05:12,854 Epoch[312] Train-LmkMetric_0=0.209721
+2017-11-15 23:05:12,854 Epoch[312] Time cost=0.319
+2017-11-15 23:05:12,860 Saved checkpoint to "./tmp/model-0313.params"
+2017-11-15 23:05:12,927 Epoch[312] Validation-LmkMetric_0=0.342408
+2017-11-15 23:05:13,246 Epoch[313] Train-LmkMetric_0=0.213107
+2017-11-15 23:05:13,246 Epoch[313] Time cost=0.318
+2017-11-15 23:05:13,253 Saved checkpoint to "./tmp/model-0314.params"
+2017-11-15 23:05:13,327 Epoch[313] Validation-LmkMetric_0=0.335878
+2017-11-15 23:05:13,609 Epoch[314] Train-LmkMetric_0=0.212433
+2017-11-15 23:05:13,610 Epoch[314] Time cost=0.282
+2017-11-15 23:05:13,615 Saved checkpoint to "./tmp/model-0315.params"
+2017-11-15 23:05:13,704 Epoch[314] Validation-LmkMetric_0=0.319637
+2017-11-15 23:05:13,993 Epoch[315] Train-LmkMetric_0=0.217900
+2017-11-15 23:05:13,993 Epoch[315] Time cost=0.289
+2017-11-15 23:05:14,004 Saved checkpoint to "./tmp/model-0316.params"
+2017-11-15 23:05:14,075 Epoch[315] Validation-LmkMetric_0=0.343980
+2017-11-15 23:05:14,388 Epoch[316] Train-LmkMetric_0=0.217997
+2017-11-15 23:05:14,388 Epoch[316] Time cost=0.312
+2017-11-15 23:05:14,395 Saved checkpoint to "./tmp/model-0317.params"
+2017-11-15 23:05:14,476 Epoch[316] Validation-LmkMetric_0=0.321296
+2017-11-15 23:05:14,759 Epoch[317] Train-LmkMetric_0=0.208901
+2017-11-15 23:05:14,759 Epoch[317] Time cost=0.282
+2017-11-15 23:05:14,768 Saved checkpoint to "./tmp/model-0318.params"
+2017-11-15 23:05:14,832 Epoch[317] Validation-LmkMetric_0=0.335413
+2017-11-15 23:05:15,124 Epoch[318] Train-LmkMetric_0=0.212162
+2017-11-15 23:05:15,124 Epoch[318] Time cost=0.292
+2017-11-15 23:05:15,130 Saved checkpoint to "./tmp/model-0319.params"
+2017-11-15 23:05:15,184 Epoch[318] Validation-LmkMetric_0=0.347330
+2017-11-15 23:05:15,468 Epoch[319] Train-LmkMetric_0=0.215176
+2017-11-15 23:05:15,468 Epoch[319] Time cost=0.284
+2017-11-15 23:05:15,474 Saved checkpoint to "./tmp/model-0320.params"
+2017-11-15 23:05:15,555 Epoch[319] Validation-LmkMetric_0=0.308636
+2017-11-15 23:05:15,686 Update[5001]: Change learning rate to 1.00000e-01
+2017-11-15 23:05:15,865 Epoch[320] Train-LmkMetric_0=0.218718
+2017-11-15 23:05:15,866 Epoch[320] Time cost=0.309
+2017-11-15 23:05:15,872 Saved checkpoint to "./tmp/model-0321.params"
+2017-11-15 23:05:15,934 Epoch[320] Validation-LmkMetric_0=0.349761
+2017-11-15 23:05:16,205 Epoch[321] Train-LmkMetric_0=0.216760
+2017-11-15 23:05:16,205 Epoch[321] Time cost=0.269
+2017-11-15 23:05:16,212 Saved checkpoint to "./tmp/model-0322.params"
+2017-11-15 23:05:16,313 Epoch[321] Validation-LmkMetric_0=0.325653
+2017-11-15 23:05:16,531 Epoch[322] Train-LmkMetric_0=0.209308
+2017-11-15 23:05:16,531 Epoch[322] Time cost=0.218
+2017-11-15 23:05:16,556 Saved checkpoint to "./tmp/model-0323.params"
+2017-11-15 23:05:16,662 Epoch[322] Validation-LmkMetric_0=0.334971
+2017-11-15 23:05:16,885 Epoch[323] Train-LmkMetric_0=0.214060
+2017-11-15 23:05:16,885 Epoch[323] Time cost=0.223
+2017-11-15 23:05:16,920 Saved checkpoint to "./tmp/model-0324.params"
+2017-11-15 23:05:17,029 Epoch[323] Validation-LmkMetric_0=0.342331
+2017-11-15 23:05:17,258 Epoch[324] Train-LmkMetric_0=0.214549
+2017-11-15 23:05:17,258 Epoch[324] Time cost=0.228
+2017-11-15 23:05:17,287 Saved checkpoint to "./tmp/model-0325.params"
+2017-11-15 23:05:17,410 Epoch[324] Validation-LmkMetric_0=0.326291
+2017-11-15 23:05:17,624 Epoch[325] Train-LmkMetric_0=0.214866
+2017-11-15 23:05:17,624 Epoch[325] Time cost=0.213
+2017-11-15 23:05:17,670 Saved checkpoint to "./tmp/model-0326.params"
+2017-11-15 23:05:17,783 Epoch[325] Validation-LmkMetric_0=0.343161
+2017-11-15 23:05:18,076 Epoch[326] Train-LmkMetric_0=0.214706
+2017-11-15 23:05:18,076 Epoch[326] Time cost=0.293
+2017-11-15 23:05:18,110 Saved checkpoint to "./tmp/model-0327.params"
+2017-11-15 23:05:18,201 Epoch[326] Validation-LmkMetric_0=0.325999
+2017-11-15 23:05:18,480 Epoch[327] Train-LmkMetric_0=0.211477
+2017-11-15 23:05:18,480 Epoch[327] Time cost=0.279
+2017-11-15 23:05:18,494 Saved checkpoint to "./tmp/model-0328.params"
+2017-11-15 23:05:18,582 Epoch[327] Validation-LmkMetric_0=0.324170
+2017-11-15 23:05:18,894 Epoch[328] Train-LmkMetric_0=0.215898
+2017-11-15 23:05:18,894 Epoch[328] Time cost=0.312
+2017-11-15 23:05:18,901 Saved checkpoint to "./tmp/model-0329.params"
+2017-11-15 23:05:18,979 Epoch[328] Validation-LmkMetric_0=0.350988
+2017-11-15 23:05:19,271 Epoch[329] Train-LmkMetric_0=0.216768
+2017-11-15 23:05:19,271 Epoch[329] Time cost=0.292
+2017-11-15 23:05:19,277 Saved checkpoint to "./tmp/model-0330.params"
+2017-11-15 23:05:19,361 Epoch[329] Validation-LmkMetric_0=0.316152
+2017-11-15 23:05:19,644 Epoch[330] Train-LmkMetric_0=0.211864
+2017-11-15 23:05:19,645 Epoch[330] Time cost=0.283
+2017-11-15 23:05:19,651 Saved checkpoint to "./tmp/model-0331.params"
+2017-11-15 23:05:19,716 Epoch[330] Validation-LmkMetric_0=0.340286
+2017-11-15 23:05:20,003 Epoch[331] Train-LmkMetric_0=0.213510
+2017-11-15 23:05:20,003 Epoch[331] Time cost=0.286
+2017-11-15 23:05:20,009 Saved checkpoint to "./tmp/model-0332.params"
+2017-11-15 23:05:20,065 Epoch[331] Validation-LmkMetric_0=0.336176
+2017-11-15 23:05:20,393 Epoch[332] Train-LmkMetric_0=0.211960
+2017-11-15 23:05:20,393 Epoch[332] Time cost=0.328
+2017-11-15 23:05:20,399 Saved checkpoint to "./tmp/model-0333.params"
+2017-11-15 23:05:20,468 Epoch[332] Validation-LmkMetric_0=0.323002
+2017-11-15 23:05:20,752 Epoch[333] Train-LmkMetric_0=0.216161
+2017-11-15 23:05:20,752 Epoch[333] Time cost=0.283
+2017-11-15 23:05:20,758 Saved checkpoint to "./tmp/model-0334.params"
+2017-11-15 23:05:20,835 Epoch[333] Validation-LmkMetric_0=0.356435
+2017-11-15 23:05:21,161 Epoch[334] Train-LmkMetric_0=0.218793
+2017-11-15 23:05:21,161 Epoch[334] Time cost=0.326
+2017-11-15 23:05:21,168 Saved checkpoint to "./tmp/model-0335.params"
+2017-11-15 23:05:21,241 Epoch[334] Validation-LmkMetric_0=0.320899
+2017-11-15 23:05:21,552 Epoch[335] Train-LmkMetric_0=0.209336
+2017-11-15 23:05:21,552 Epoch[335] Time cost=0.311
+2017-11-15 23:05:21,564 Saved checkpoint to "./tmp/model-0336.params"
+2017-11-15 23:05:21,630 Epoch[335] Validation-LmkMetric_0=0.334179
+2017-11-15 23:05:21,917 Epoch[336] Train-LmkMetric_0=0.211759
+2017-11-15 23:05:21,917 Epoch[336] Time cost=0.286
+2017-11-15 23:05:21,922 Saved checkpoint to "./tmp/model-0337.params"
+2017-11-15 23:05:22,005 Epoch[336] Validation-LmkMetric_0=0.344366
+2017-11-15 23:05:22,292 Epoch[337] Train-LmkMetric_0=0.212859
+2017-11-15 23:05:22,307 Epoch[337] Time cost=0.301
+2017-11-15 23:05:22,313 Saved checkpoint to "./tmp/model-0338.params"
+2017-11-15 23:05:22,382 Epoch[337] Validation-LmkMetric_0=0.319629
+2017-11-15 23:05:22,709 Epoch[338] Train-LmkMetric_0=0.217530
+2017-11-15 23:05:22,709 Epoch[338] Time cost=0.327
+2017-11-15 23:05:22,717 Saved checkpoint to "./tmp/model-0339.params"
+2017-11-15 23:05:22,853 Epoch[338] Validation-LmkMetric_0=0.353982
+2017-11-15 23:05:23,128 Epoch[339] Train-LmkMetric_0=0.217195
+2017-11-15 23:05:23,129 Epoch[339] Time cost=0.275
+2017-11-15 23:05:23,135 Saved checkpoint to "./tmp/model-0340.params"
+2017-11-15 23:05:23,325 Epoch[339] Validation-LmkMetric_0=0.323758
+2017-11-15 23:05:23,579 Epoch[340] Train-LmkMetric_0=0.210182
+2017-11-15 23:05:23,585 Epoch[340] Time cost=0.259
+2017-11-15 23:05:23,604 Saved checkpoint to "./tmp/model-0341.params"
+2017-11-15 23:05:23,720 Epoch[340] Validation-LmkMetric_0=0.327095
+2017-11-15 23:05:23,930 Epoch[341] Train-LmkMetric_0=0.212908
+2017-11-15 23:05:23,931 Epoch[341] Time cost=0.210
+2017-11-15 23:05:23,940 Saved checkpoint to "./tmp/model-0342.params"
+2017-11-15 23:05:24,074 Epoch[341] Validation-LmkMetric_0=0.353071
+2017-11-15 23:05:24,250 Epoch[342] Train-LmkMetric_0=0.212948
+2017-11-15 23:05:24,250 Epoch[342] Time cost=0.168
+2017-11-15 23:05:24,271 Saved checkpoint to "./tmp/model-0343.params"
+2017-11-15 23:05:24,427 Epoch[342] Validation-LmkMetric_0=0.331677
+2017-11-15 23:05:24,698 Epoch[343] Train-LmkMetric_0=0.216284
+2017-11-15 23:05:24,698 Epoch[343] Time cost=0.271
+2017-11-15 23:05:24,726 Saved checkpoint to "./tmp/model-0344.params"
+2017-11-15 23:05:24,824 Epoch[343] Validation-LmkMetric_0=0.341357
+2017-11-15 23:05:25,075 Epoch[344] Train-LmkMetric_0=0.215442
+2017-11-15 23:05:25,075 Epoch[344] Time cost=0.251
+2017-11-15 23:05:25,089 Saved checkpoint to "./tmp/model-0345.params"
+2017-11-15 23:05:25,181 Epoch[344] Validation-LmkMetric_0=0.318644
+2017-11-15 23:05:25,352 Epoch[345] Train-LmkMetric_0=0.209371
+2017-11-15 23:05:25,352 Epoch[345] Time cost=0.170
+2017-11-15 23:05:25,373 Saved checkpoint to "./tmp/model-0346.params"
+2017-11-15 23:05:25,538 Epoch[345] Validation-LmkMetric_0=0.331134
+2017-11-15 23:05:25,737 Epoch[346] Train-LmkMetric_0=0.214537
+2017-11-15 23:05:25,738 Epoch[346] Time cost=0.193
+2017-11-15 23:05:25,757 Saved checkpoint to "./tmp/model-0347.params"
+2017-11-15 23:05:25,931 Epoch[346] Validation-LmkMetric_0=0.355748
+2017-11-15 23:05:26,102 Epoch[347] Train-LmkMetric_0=0.215417
+2017-11-15 23:05:26,103 Epoch[347] Time cost=0.171
+2017-11-15 23:05:26,124 Saved checkpoint to "./tmp/model-0348.params"
+2017-11-15 23:05:26,266 Epoch[347] Validation-LmkMetric_0=0.323783
+2017-11-15 23:05:26,433 Epoch[348] Train-LmkMetric_0=0.213864
+2017-11-15 23:05:26,433 Epoch[348] Time cost=0.166
+2017-11-15 23:05:26,442 Saved checkpoint to "./tmp/model-0349.params"
+2017-11-15 23:05:26,593 Epoch[348] Validation-LmkMetric_0=0.345219
+2017-11-15 23:05:26,790 Epoch[349] Train-LmkMetric_0=0.213965
+2017-11-15 23:05:26,790 Epoch[349] Time cost=0.187
+2017-11-15 23:05:26,798 Saved checkpoint to "./tmp/model-0350.params"
+2017-11-15 23:05:26,886 Epoch[349] Validation-LmkMetric_0=0.326879
+2017-11-15 23:05:27,140 Epoch[350] Train-LmkMetric_0=0.210642
+2017-11-15 23:05:27,140 Epoch[350] Time cost=0.253
+2017-11-15 23:05:27,157 Saved checkpoint to "./tmp/model-0351.params"
+2017-11-15 23:05:27,275 Epoch[350] Validation-LmkMetric_0=0.324805
+2017-11-15 23:05:27,501 Epoch[351] Train-LmkMetric_0=0.215898
+2017-11-15 23:05:27,501 Epoch[351] Time cost=0.218
+2017-11-15 23:05:27,509 Saved checkpoint to "./tmp/model-0352.params"
+2017-11-15 23:05:27,644 Epoch[351] Validation-LmkMetric_0=0.361490
+2017-11-15 23:05:27,790 Update[5501]: Change learning rate to 1.00000e-01
+2017-11-15 23:05:27,881 Epoch[352] Train-LmkMetric_0=0.217224
+2017-11-15 23:05:27,881 Epoch[352] Time cost=0.236
+2017-11-15 23:05:27,889 Saved checkpoint to "./tmp/model-0353.params"
+2017-11-15 23:05:27,951 Epoch[352] Validation-LmkMetric_0=0.317878
+2017-11-15 23:05:28,220 Epoch[353] Train-LmkMetric_0=0.210233
+2017-11-15 23:05:28,220 Epoch[353] Time cost=0.269
+2017-11-15 23:05:28,228 Saved checkpoint to "./tmp/model-0354.params"
+2017-11-15 23:05:28,296 Epoch[353] Validation-LmkMetric_0=0.331619
+2017-11-15 23:05:28,557 Epoch[354] Train-LmkMetric_0=0.212419
+2017-11-15 23:05:28,557 Epoch[354] Time cost=0.260
+2017-11-15 23:05:28,565 Saved checkpoint to "./tmp/model-0355.params"
+2017-11-15 23:05:28,636 Epoch[354] Validation-LmkMetric_0=0.339518
+2017-11-15 23:05:28,910 Epoch[355] Train-LmkMetric_0=0.211778
+2017-11-15 23:05:28,915 Epoch[355] Time cost=0.279
+2017-11-15 23:05:28,930 Saved checkpoint to "./tmp/model-0356.params"
+2017-11-15 23:05:29,006 Epoch[355] Validation-LmkMetric_0=0.322775
+2017-11-15 23:05:29,261 Epoch[356] Train-LmkMetric_0=0.216504
+2017-11-15 23:05:29,261 Epoch[356] Time cost=0.255
+2017-11-15 23:05:29,290 Saved checkpoint to "./tmp/model-0357.params"
+2017-11-15 23:05:29,372 Epoch[356] Validation-LmkMetric_0=0.361467
+2017-11-15 23:05:29,637 Epoch[357] Train-LmkMetric_0=0.217670
+2017-11-15 23:05:29,637 Epoch[357] Time cost=0.265
+2017-11-15 23:05:29,647 Saved checkpoint to "./tmp/model-0358.params"
+2017-11-15 23:05:29,731 Epoch[357] Validation-LmkMetric_0=0.317367
+2017-11-15 23:05:29,997 Epoch[358] Train-LmkMetric_0=0.208450
+2017-11-15 23:05:29,998 Epoch[358] Time cost=0.265
+2017-11-15 23:05:30,018 Saved checkpoint to "./tmp/model-0359.params"
+2017-11-15 23:05:30,118 Epoch[358] Validation-LmkMetric_0=0.327710
+2017-11-15 23:05:30,414 Epoch[359] Train-LmkMetric_0=0.212644
+2017-11-15 23:05:30,414 Epoch[359] Time cost=0.296
+2017-11-15 23:05:30,440 Saved checkpoint to "./tmp/model-0360.params"
+2017-11-15 23:05:30,513 Epoch[359] Validation-LmkMetric_0=0.349461
+2017-11-15 23:05:30,824 Epoch[360] Train-LmkMetric_0=0.212604
+2017-11-15 23:05:30,824 Epoch[360] Time cost=0.311
+2017-11-15 23:05:30,832 Saved checkpoint to "./tmp/model-0361.params"
+2017-11-15 23:05:30,896 Epoch[360] Validation-LmkMetric_0=0.319764
+2017-11-15 23:05:31,183 Epoch[361] Train-LmkMetric_0=0.215616
+2017-11-15 23:05:31,184 Epoch[361] Time cost=0.287
+2017-11-15 23:05:31,193 Saved checkpoint to "./tmp/model-0362.params"
+2017-11-15 23:05:31,252 Epoch[361] Validation-LmkMetric_0=0.359290
+2017-11-15 23:05:31,530 Epoch[362] Train-LmkMetric_0=0.215232
+2017-11-15 23:05:31,531 Epoch[362] Time cost=0.278
+2017-11-15 23:05:31,554 Saved checkpoint to "./tmp/model-0363.params"
+2017-11-15 23:05:31,628 Epoch[362] Validation-LmkMetric_0=0.321479
+2017-11-15 23:05:31,870 Epoch[363] Train-LmkMetric_0=0.210241
+2017-11-15 23:05:31,870 Epoch[363] Time cost=0.241
+2017-11-15 23:05:31,889 Saved checkpoint to "./tmp/model-0364.params"
+2017-11-15 23:05:31,982 Epoch[363] Validation-LmkMetric_0=0.319612
+2017-11-15 23:05:32,300 Epoch[364] Train-LmkMetric_0=0.213841
+2017-11-15 23:05:32,300 Epoch[364] Time cost=0.318
+2017-11-15 23:05:32,307 Saved checkpoint to "./tmp/model-0365.params"
+2017-11-15 23:05:32,368 Epoch[364] Validation-LmkMetric_0=0.355983
+2017-11-15 23:05:32,685 Epoch[365] Train-LmkMetric_0=0.213553
+2017-11-15 23:05:32,686 Epoch[365] Time cost=0.317
+2017-11-15 23:05:32,695 Saved checkpoint to "./tmp/model-0366.params"
+2017-11-15 23:05:32,769 Epoch[365] Validation-LmkMetric_0=0.331409
+2017-11-15 23:05:33,043 Epoch[366] Train-LmkMetric_0=0.216271
+2017-11-15 23:05:33,046 Epoch[366] Time cost=0.276
+2017-11-15 23:05:33,062 Saved checkpoint to "./tmp/model-0367.params"
+2017-11-15 23:05:33,127 Epoch[366] Validation-LmkMetric_0=0.353441
+2017-11-15 23:05:33,417 Epoch[367] Train-LmkMetric_0=0.214429
+2017-11-15 23:05:33,418 Epoch[367] Time cost=0.289
+2017-11-15 23:05:33,424 Saved checkpoint to "./tmp/model-0368.params"
+2017-11-15 23:05:33,505 Epoch[367] Validation-LmkMetric_0=0.324135
+2017-11-15 23:05:33,792 Epoch[368] Train-LmkMetric_0=0.209986
+2017-11-15 23:05:33,793 Epoch[368] Time cost=0.287
+2017-11-15 23:05:33,801 Saved checkpoint to "./tmp/model-0369.params"
+2017-11-15 23:05:33,869 Epoch[368] Validation-LmkMetric_0=0.320168
+2017-11-15 23:05:34,130 Epoch[369] Train-LmkMetric_0=0.213885
+2017-11-15 23:05:34,131 Epoch[369] Time cost=0.261
+2017-11-15 23:05:34,148 Saved checkpoint to "./tmp/model-0370.params"
+2017-11-15 23:05:34,229 Epoch[369] Validation-LmkMetric_0=0.465481
+2017-11-15 23:05:34,457 Epoch[370] Train-LmkMetric_0=0.214959
+2017-11-15 23:05:34,457 Epoch[370] Time cost=0.228
+2017-11-15 23:05:34,524 Saved checkpoint to "./tmp/model-0371.params"
+2017-11-15 23:05:34,642 Epoch[370] Validation-LmkMetric_0=0.326468
+2017-11-15 23:05:34,909 Epoch[371] Train-LmkMetric_0=0.212096
+2017-11-15 23:05:34,910 Epoch[371] Time cost=0.267
+2017-11-15 23:05:34,922 Saved checkpoint to "./tmp/model-0372.params"
+2017-11-15 23:05:34,994 Epoch[371] Validation-LmkMetric_0=0.348370
+2017-11-15 23:05:35,218 Epoch[372] Train-LmkMetric_0=0.213925
+2017-11-15 23:05:35,219 Epoch[372] Time cost=0.224
+2017-11-15 23:05:35,294 Saved checkpoint to "./tmp/model-0373.params"
+2017-11-15 23:05:35,369 Epoch[372] Validation-LmkMetric_0=0.326361
+2017-11-15 23:05:35,654 Epoch[373] Train-LmkMetric_0=0.210911
+2017-11-15 23:05:35,654 Epoch[373] Time cost=0.285
+2017-11-15 23:05:35,758 Saved checkpoint to "./tmp/model-0374.params"
+2017-11-15 23:05:35,838 Epoch[373] Validation-LmkMetric_0=0.320563
+2017-11-15 23:05:36,140 Epoch[374] Train-LmkMetric_0=1.174518
+2017-11-15 23:05:36,140 Epoch[374] Time cost=0.301
+2017-11-15 23:05:36,148 Saved checkpoint to "./tmp/model-0375.params"
+2017-11-15 23:05:36,218 Epoch[374] Validation-LmkMetric_0=1.716785
+2017-11-15 23:05:36,514 Epoch[375] Train-LmkMetric_0=1.523514
+2017-11-15 23:05:36,515 Epoch[375] Time cost=0.296
+2017-11-15 23:05:36,521 Saved checkpoint to "./tmp/model-0376.params"
+2017-11-15 23:05:36,587 Epoch[375] Validation-LmkMetric_0=1.719636
+2017-11-15 23:05:36,886 Epoch[376] Train-LmkMetric_0=1.512185
+2017-11-15 23:05:36,887 Epoch[376] Time cost=0.299
+2017-11-15 23:05:36,895 Saved checkpoint to "./tmp/model-0377.params"
+2017-11-15 23:05:36,993 Epoch[376] Validation-LmkMetric_0=1.718198
+2017-11-15 23:05:37,255 Epoch[377] Train-LmkMetric_0=1.524878
+2017-11-15 23:05:37,255 Epoch[377] Time cost=0.262
+2017-11-15 23:05:37,264 Saved checkpoint to "./tmp/model-0378.params"
+2017-11-15 23:05:37,347 Epoch[377] Validation-LmkMetric_0=1.707253
+2017-11-15 23:05:37,654 Epoch[378] Train-LmkMetric_0=1.512071
+2017-11-15 23:05:37,655 Epoch[378] Time cost=0.307
+2017-11-15 23:05:37,695 Saved checkpoint to "./tmp/model-0379.params"
+2017-11-15 23:05:37,769 Epoch[378] Validation-LmkMetric_0=1.721107
+2017-11-15 23:05:38,075 Epoch[379] Train-LmkMetric_0=1.525494
+2017-11-15 23:05:38,076 Epoch[379] Time cost=0.306
+2017-11-15 23:05:38,081 Saved checkpoint to "./tmp/model-0380.params"
+2017-11-15 23:05:38,145 Epoch[379] Validation-LmkMetric_0=1.715943
+2017-11-15 23:05:38,438 Epoch[380] Train-LmkMetric_0=1.522845
+2017-11-15 23:05:38,438 Epoch[380] Time cost=0.292
+2017-11-15 23:05:38,446 Saved checkpoint to "./tmp/model-0381.params"
+2017-11-15 23:05:38,506 Epoch[380] Validation-LmkMetric_0=1.719616
+2017-11-15 23:05:38,774 Epoch[381] Train-LmkMetric_0=1.510810
+2017-11-15 23:05:38,775 Epoch[381] Time cost=0.268
+2017-11-15 23:05:38,789 Saved checkpoint to "./tmp/model-0382.params"
+2017-11-15 23:05:38,857 Epoch[381] Validation-LmkMetric_0=1.716165
+2017-11-15 23:05:39,077 Epoch[382] Train-LmkMetric_0=1.525323
+2017-11-15 23:05:39,078 Epoch[382] Time cost=0.220
+2017-11-15 23:05:39,135 Saved checkpoint to "./tmp/model-0383.params"
+2017-11-15 23:05:39,241 Epoch[382] Validation-LmkMetric_0=1.707730
+2017-11-15 23:05:39,398 Epoch[383] Train-LmkMetric_0=1.512247
+2017-11-15 23:05:39,398 Epoch[383] Time cost=0.157
+2017-11-15 23:05:39,405 Saved checkpoint to "./tmp/model-0384.params"
+2017-11-15 23:05:39,606 Epoch[383] Validation-LmkMetric_0=1.721429
+2017-11-15 23:05:39,723 Update[6001]: Change learning rate to 1.00000e-01
+2017-11-15 23:05:39,831 Epoch[384] Train-LmkMetric_0=1.524762
+2017-11-15 23:05:39,832 Epoch[384] Time cost=0.218
+2017-11-15 23:05:39,863 Saved checkpoint to "./tmp/model-0385.params"
+2017-11-15 23:05:39,989 Epoch[384] Validation-LmkMetric_0=1.715496
+2017-11-15 23:05:40,181 Epoch[385] Train-LmkMetric_0=1.522220
+2017-11-15 23:05:40,181 Epoch[385] Time cost=0.192
+2017-11-15 23:05:40,201 Saved checkpoint to "./tmp/model-0386.params"
+2017-11-15 23:05:40,369 Epoch[385] Validation-LmkMetric_0=1.719247
+2017-11-15 23:05:40,564 Epoch[386] Train-LmkMetric_0=1.509923
+2017-11-15 23:05:40,565 Epoch[386] Time cost=0.194
+2017-11-15 23:05:40,614 Saved checkpoint to "./tmp/model-0387.params"
+2017-11-15 23:05:40,741 Epoch[386] Validation-LmkMetric_0=1.715595
+2017-11-15 23:05:40,918 Epoch[387] Train-LmkMetric_0=1.525359
+2017-11-15 23:05:40,918 Epoch[387] Time cost=0.176
+2017-11-15 23:05:40,926 Saved checkpoint to "./tmp/model-0388.params"
+2017-11-15 23:05:41,135 Epoch[387] Validation-LmkMetric_0=1.708891
+2017-11-15 23:05:41,391 Epoch[388] Train-LmkMetric_0=1.521999
+2017-11-15 23:05:41,391 Epoch[388] Time cost=0.256
+2017-11-15 23:05:41,431 Saved checkpoint to "./tmp/model-0389.params"
+2017-11-15 23:05:41,520 Epoch[388] Validation-LmkMetric_0=1.721109
+2017-11-15 23:05:41,756 Epoch[389] Train-LmkMetric_0=1.513487
+2017-11-15 23:05:41,767 Epoch[389] Time cost=0.246
+2017-11-15 23:05:41,831 Saved checkpoint to "./tmp/model-0390.params"
+2017-11-15 23:05:41,937 Epoch[389] Validation-LmkMetric_0=1.715037
+2017-11-15 23:05:42,249 Epoch[390] Train-LmkMetric_0=1.522485
+2017-11-15 23:05:42,249 Epoch[390] Time cost=0.312
+2017-11-15 23:05:42,264 Saved checkpoint to "./tmp/model-0391.params"
+2017-11-15 23:05:42,330 Epoch[390] Validation-LmkMetric_0=1.719048
+2017-11-15 23:05:42,642 Epoch[391] Train-LmkMetric_0=1.509939
+2017-11-15 23:05:42,642 Epoch[391] Time cost=0.312
+2017-11-15 23:05:42,648 Saved checkpoint to "./tmp/model-0392.params"
+2017-11-15 23:05:42,715 Epoch[391] Validation-LmkMetric_0=1.713815
+2017-11-15 23:05:43,018 Epoch[392] Train-LmkMetric_0=1.524828
+2017-11-15 23:05:43,018 Epoch[392] Time cost=0.303
+2017-11-15 23:05:43,031 Saved checkpoint to "./tmp/model-0393.params"
+2017-11-15 23:05:43,099 Epoch[392] Validation-LmkMetric_0=1.709626
+2017-11-15 23:05:43,432 Epoch[393] Train-LmkMetric_0=1.522025
+2017-11-15 23:05:43,432 Epoch[393] Time cost=0.333
+2017-11-15 23:05:43,438 Saved checkpoint to "./tmp/model-0394.params"
+2017-11-15 23:05:43,500 Epoch[393] Validation-LmkMetric_0=1.720880
+2017-11-15 23:05:43,775 Epoch[394] Train-LmkMetric_0=1.511731
+2017-11-15 23:05:43,776 Epoch[394] Time cost=0.276
+2017-11-15 23:05:43,799 Saved checkpoint to "./tmp/model-0395.params"
+2017-11-15 23:05:43,866 Epoch[394] Validation-LmkMetric_0=1.714466
+2017-11-15 23:05:44,175 Epoch[395] Train-LmkMetric_0=1.522858
+2017-11-15 23:05:44,176 Epoch[395] Time cost=0.309
+2017-11-15 23:05:44,191 Saved checkpoint to "./tmp/model-0396.params"
+2017-11-15 23:05:44,263 Epoch[395] Validation-LmkMetric_0=1.718718
+2017-11-15 23:05:44,488 Epoch[396] Train-LmkMetric_0=1.510118
+2017-11-15 23:05:44,490 Epoch[396] Time cost=0.227
+2017-11-15 23:05:44,510 Saved checkpoint to "./tmp/model-0397.params"
+2017-11-15 23:05:44,599 Epoch[396] Validation-LmkMetric_0=1.712238
+2017-11-15 23:05:44,820 Epoch[397] Train-LmkMetric_0=1.524282
+2017-11-15 23:05:44,820 Epoch[397] Time cost=0.221
+2017-11-15 23:05:44,848 Saved checkpoint to "./tmp/model-0398.params"
+2017-11-15 23:05:44,957 Epoch[397] Validation-LmkMetric_0=1.710325
+2017-11-15 23:05:45,202 Epoch[398] Train-LmkMetric_0=1.521619
+2017-11-15 23:05:45,203 Epoch[398] Time cost=0.246
+2017-11-15 23:05:45,255 Saved checkpoint to "./tmp/model-0399.params"
+2017-11-15 23:05:45,332 Epoch[398] Validation-LmkMetric_0=1.720369
+2017-11-15 23:05:45,542 Epoch[399] Train-LmkMetric_0=1.509954
+2017-11-15 23:05:45,542 Epoch[399] Time cost=0.209
+2017-11-15 23:05:45,555 Saved checkpoint to "./tmp/model-0400.params"
+2017-11-15 23:05:45,702 Epoch[399] Validation-LmkMetric_0=1.714033
