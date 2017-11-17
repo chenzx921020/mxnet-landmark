@@ -11,7 +11,7 @@ import mixup
 
 if __name__ == '__main__':   
     Batch = namedtuple('Batch', ['data'])
-    sym,arg_params,aux_params = mx.model.load_checkpoint('tmp/model',300)
+    sym,arg_params,aux_params = mx.model.load_checkpoint('mixup3/model',300)
     print sym.get_internals()
     mod = mx.mod.Module(symbol=sym,context=mx.cpu(),data_names=['data'],label_names=[])
     mod.bind(for_training=False,data_shapes=[('data',(1,1,72,72))],label_shapes=mod._label_shapes)

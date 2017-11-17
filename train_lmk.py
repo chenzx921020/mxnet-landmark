@@ -18,8 +18,8 @@ ocular_pt_ind1 = 7
 ocular_pt_ind2 = 10
 
 
-root_dir = "/home/users/zhixuan.chen/data/"
-batch_size = 64
+root_dir = "/data/zhixuan/lmk_data/crop_data/crop_re_list/"
+batch_size = 256
 input_channel = 1
 input_size = 72
 input_shape = (input_channel, input_size, input_size)
@@ -30,8 +30,8 @@ def get_test_iterator():
         # path_imglist = root_dir + "/annotations/face_rect/umd_batch3.pose.txt.nnvm",
         # path_imgrec = root_dir + "/img_rec/face_rect/umd.batch3.pose.gray.rec",
         # label_width = pose_count,
-        path_imglist = "/home/users/zhixuan.chen/data/val.lst",
-        path_imgrec = "/home/users/zhixuan.chen/data/val.rec",
+        path_imglist = root_dir + "val.lst",
+        path_imgrec = root_dir + "val.rec",
         label_width = lmk_count*2,
         data_shape  = input_shape,
         batch_size  = batch_size,
@@ -48,11 +48,11 @@ def get_data_iterator():
         # path_imglist = root_dir + "/annotations/face_rect/umd_batch1.pose.txt.nnvm",
         # path_imgrec = root_dir + "/img_rec/face_rect/umd.batch1.pose.gray.rec",
         # label_width = pose_count,
-        path_imglist = "/home/users/zhixuan.chen/data/train.lst",
-        path_imgrec = "/home/users/zhixuan.chen/data/train.rec",
+        path_imglist = root_dir + "train.lst",
+        path_imgrec = root_dir + "train.rec",
         label_width = lmk_count*2,
         data_shape  = input_shape,
-        #shuffle     = True,
+        shuffle     = True,
         batch_size  = batch_size,
         # rand_crop   = True,
         # max_rotate_angle = 10,
@@ -65,7 +65,7 @@ def get_data_iterator():
         # random_h = 100,
         # random_s = 100,
         # random_l = 100,
-        # rand_mirror = True,
+        rand_mirror = True,
         mean_r = 128,
         #mean_g = 128,
         #mean_b = 128,
@@ -97,10 +97,10 @@ def fit(sym, train, val, batch_size, num_gpus):
             begin_epoch        = 0 if load_epoch == -1 else load_epoch,
             num_epoch          = train_epoch,
             allow_missing      = True,
-            batch_end_callback = mx.callback.Speedometer(batch_size, 64),
+            batch_end_callback = mx.callback.Speedometer(batch_size, 100),
             kvstore            ='device',
             optimizer          ='adam',
-            optimizer_params   = {'learning_rate':0.1,'lr_scheduler': mx.lr_scheduler.FactorScheduler(step=500,factor=0.4)},
+            optimizer_params   = {'learning_rate':0.1,'lr_scheduler': mx.lr_scheduler.FactorScheduler(step=50000,factor=0.3)},
             initializer        = mx.init.Xavier(rnd_type='uniform', factor_type="avg", magnitude=2.34),
             epoch_end_callback = mx.callback.do_checkpoint(model_prefix),
             eval_metric        = metric,
@@ -110,8 +110,8 @@ def fit(sym, train, val, batch_size, num_gpus):
 
 
 if __name__ == "__main__":
-    sym = net.get_symbol(True)
-    num_gpus = 1
+    sym = net.get_symbol(True,batch_size)
+    num_gpus = 4
     (train_iter, test_iter) = get_data_iterator()
     mod_score = fit(sym, train_iter, test_iter, batch_size, num_gpus)
     

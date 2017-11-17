@@ -20,23 +20,25 @@ def ConvFactory(name, data, num_filter, kernel, stride=1, pad=0, use_act=True):
         return conv
 
 
-def get_symbol(is_train=True, lmk_count=21, pose_count=3):
-    batch_size = 64
+def get_symbol(is_train=True,batch_size=256,lmk_count=21):
     data = mx.sym.Variable("data")
     label = mx.sym.Variable("softmax_label")
-    
-    conv1 = ConvFactory('conv1', data, 16, 3, 2, 0)
+    if is_train:
+        mix_data,label = mx.sym.Custom(data=data,label=label,alpha=0.1,num_classes=lmk_count*2,batch_size=batch_size,mix_rate=0.3,op_type='MixUp')
+        conv1 = ConvFactory('conv1',mix_data, 16, 3, 2, 0)
+    else:
+        conv1 = ConvFactory('conv1', data, 16, 3, 2, 0)
     conv1_2 = ConvFactory('conv1_2', conv1, 32, 3, 2, 0)
     conv2 = ConvFactory('conv2', conv1_2, 32, 3, 1, 0)
     conv3 = ConvFactory('conv3', conv2, 48, 3, 2, 1)
     if is_train:
-        mix_re1,label = mx.sym.Custom(data=conv3,label=label,alpha=0.1,num_classes=lmk_count*2,batch_size=64,mix_rate=0.3,op_type='MixUp')
+        mix_re1,label = mx.sym.Custom(data=conv3,label=label,alpha=0.1,num_classes=lmk_count*2, batch_size = batch_size,mix_rate=0.7,op_type='MixUp')
         conv4 = ConvFactory('conv4', mix_re1, 48, 3, 1, 0)
     else:
         conv4 = ConvFactory('conv4', conv3, 48, 3, 1, 0)
     conv5 = ConvFactory('conv5', conv4, 64, 3, 1, 1)
     if is_train:
-        mix_re2,label = mx.sym.Custom(data = conv5,label=label,alpha =0.2,num_classes = lmk_count*2, batch_size = 64, mix_rate = 0.7 ,op_type = 'MixUp')
+        mix_re2,label = mx.sym.Custom(data = conv5,label=label,alpha =0.2,num_classes = lmk_count*2, batch_size = batch_size, mix_rate = 0.9 ,op_type = 'MixUp')
         conv6_1 = ConvFactory('conv6_1', mix_re2, 64, 3, 1, 1)
     else:
         conv6_1 = ConvFactory('conv6_1', conv5, 64, 3, 1, 1)
