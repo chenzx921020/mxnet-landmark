@@ -18,6 +18,7 @@ for i in range(0,len(lines)):
     tmp = lines[i].split(' ')
     
     if ('Epoch' ==tmp[2][:5]) and ('Train-LmkMetric_0'==tmp[3][:17]):
+    #if ('Epoch' ==tmp[2][:5]) and ('Validation-LmkMetric_0'==tmp[3][:22]):
 
         train_loss.append(float(tmp[-1].split('=')[-1]))
         #train_list.append(i)
@@ -28,10 +29,10 @@ pylab.ylabel('train_loss')
 #pylab.xlim([0, 1])
 #pylab.ylim([0, 1])
 #pylab.text(rec[100],pre[100])
-pylab.xticks(np.arange(0.,500,50), fontsize = 8)
-pylab.yticks(np.arange(0.,2,0.1), fontsize = 8)
+pylab.xticks(np.arange(0.,800,100), fontsize = 8)
+pylab.yticks(np.arange(0.,0.5,0.02), fontsize = 8)
 pylab.title('linear_regression_loss')
 pylab.grid()
 #pic_name = sys.argv[3]
-pylab.savefig(save_path + 'mx12_train_loss_mixup.jpg')
+pylab.savefig(save_path + 'mx12_train_loss_1128tmp.jpg')
 pylab.close('all')

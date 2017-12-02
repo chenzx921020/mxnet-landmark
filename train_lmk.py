@@ -4,6 +4,7 @@ import logging
 import mxnet as mx
 import numpy as np
 import symbol_chenzx as net
+#import symbol_densenet as net
 from lmk_pose_metric import LmkMetric2
 #from lmk_pose_metric import PoseMetric
 
@@ -19,6 +20,7 @@ ocular_pt_ind2 = 10
 
 
 root_dir = "/data/zhixuan/lmk_data/crop_data/crop_re_list/"
+#root_dir = '/home/users/zhixuan.chen/data/'
 batch_size = 256
 input_channel = 1
 input_size = 72
@@ -48,14 +50,14 @@ def get_data_iterator():
         # path_imglist = root_dir + "/annotations/face_rect/umd_batch1.pose.txt.nnvm",
         # path_imgrec = root_dir + "/img_rec/face_rect/umd.batch1.pose.gray.rec",
         # label_width = pose_count,
-        path_imglist = root_dir + "train.lst",
-        path_imgrec = root_dir + "train.rec",
+        path_imglist = root_dir + "train_aug.lst",
+        path_imgrec = root_dir + "train_aug.rec",
         label_width = lmk_count*2,
         data_shape  = input_shape,
         shuffle     = True,
         batch_size  = batch_size,
-        # rand_crop   = True,
-        # max_rotate_angle = 10,
+        #rand_crop   = True,
+        #max_rotate_angle = 10,
         # max_aspect_ratio = 0.02,
         # max_shear_ratio = 0.1,
         # max_crop_size = 72,
@@ -65,7 +67,7 @@ def get_data_iterator():
         # random_h = 100,
         # random_s = 100,
         # random_l = 100,
-        rand_mirror = True,
+        #rand_mirror = True,
         mean_r = 128,
         #mean_g = 128,
         #mean_b = 128,
@@ -82,14 +84,15 @@ model_prefix = save_dir + "/model"
 
 def fit(sym, train, val, batch_size, num_gpus):
     load_epoch = -1
-    train_epoch = 400
+    train_epoch = 800
     arg_params = None
     aux_params = None
     if load_epoch != -1:
         print 'continue training with epoch %d' % (load_epoch)
         sym, arg_params, aux_params = mx.model.load_checkpoint(model_prefix, load_epoch)
         train_epoch += load_epoch
-    devs = [mx.gpu(i) for i in range(num_gpus)]
+    #devs = [mx.gpu(i) for i in range(num_gpus)]
+    devs = mx.gpu(num_gpus)
     mod = mx.mod.Module(symbol=sym, context=devs)
     metric = LmkMetric2( 0,lmk_count, ocular_pt_ind1, ocular_pt_ind2)
     # metric = PoseMetric(pose_count)
@@ -100,7 +103,7 @@ def fit(sym, train, val, batch_size, num_gpus):
             batch_end_callback = mx.callback.Speedometer(batch_size, 100),
             kvstore            ='device',
             optimizer          ='adam',
-            optimizer_params   = {'learning_rate':0.1,'lr_scheduler': mx.lr_scheduler.FactorScheduler(step=50000,factor=0.3)},
+            optimizer_params   = {'learning_rate':0.001,'lr_scheduler': mx.lr_scheduler.FactorScheduler(step=100000,factor=0.4)},
             initializer        = mx.init.Xavier(rnd_type='uniform', factor_type="avg", magnitude=2.34),
             epoch_end_callback = mx.callback.do_checkpoint(model_prefix),
             eval_metric        = metric,
@@ -111,7 +114,8 @@ def fit(sym, train, val, batch_size, num_gpus):
 
 if __name__ == "__main__":
     sym = net.get_symbol(True,batch_size)
-    num_gpus = 4
+    #sym = net.get_symbol(True,lmk_count*2,3,12,12) 
+    num_gpus = 3
     (train_iter, test_iter) = get_data_iterator()
     mod_score = fit(sym, train_iter, test_iter, batch_size, num_gpus)
     

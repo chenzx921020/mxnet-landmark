@@ -80,8 +80,8 @@ class MixUp(mx.operator.CustomOp):
         y1 = mx.nd.array(y1)
         y2 = mx.nd.array(y2)        
         data, label= self.mix(data1,data2,y1,y2,self.data_lamdba1,self.data_lamdba2,self.label_lamdba1,self.label_lamdba2)
-    	data -= mx.nd.mean(data, axis = 0) # zero-center
-	data /= mx.nd.norm(data, axis = 0) # normalize
+    	#data -= mx.nd.mean(data, axis = 0) # zero-center
+	#data /= mx.nd.norm(data, axis = 0) # normalize
 	#unmix_label = np.zeros((unmix_y.shape[0],self.num_classes))
 	#unmix_label[np.arange(unmix_label.shape[0],dtype = 'int'),unmix_y] = 1
         unmix_label = unmix_y
